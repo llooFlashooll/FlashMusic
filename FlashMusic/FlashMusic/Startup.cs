@@ -55,13 +55,6 @@ namespace FlashMusic
                     };
                 });
 
-            // 设置用户权限
-            services.AddAuthorization(config =>
-            {
-                config.AddPolicy(Policies.Admin, Policies.AdminPolicy());
-                config.AddPolicy(Policies.User, Policies.UserPolicy());
-            });
-
 
             // 将Controller的核心服务注册到容器中去
             services.AddControllers(setup =>
@@ -85,6 +78,7 @@ namespace FlashMusic
 
 
             services.AddScoped<IAuthRepository, AuthRepository>();
+            // services.AddScoped<IShoppingRepository, ShoppingRepository>();
 
         }
 

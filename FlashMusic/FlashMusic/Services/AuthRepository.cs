@@ -31,7 +31,8 @@ namespace FlashMusic.Services
             _context.User.Add(new User
             {
                 UserName = UserInfo.UserName,
-                Password = UserInfo.Password
+                Password = UserInfo.Password,
+                Avatar = UserInfo.Avatar
             });
             return _context.SaveChanges() > 0;
         }

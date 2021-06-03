@@ -3,6 +3,7 @@ using FlashMusic.Dtos;
 using FlashMusic.Models;
 using FlashMusic.Services;
 using FlashMusic.Utils;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -40,6 +41,14 @@ namespace FlashMusic.Controllers
             {
                 return Ok(Message.LoginFail());
             }
+        }
+
+        // Authorize属性：加上权限验证，会跳过AllowAnonymous方法
+        [Authorize]
+        [HttpGet]
+        public IActionResult TestToken()
+        {
+            return Ok(new { id = _authRepository.GetIdFromToken() });
         }
     }
 }

@@ -19,7 +19,7 @@ namespace FlashMusic.Database
 
         public DbSet<User> User { get; set; }
         public DbSet<Product> Product { get; set; }
-        public DbSet<Orders> Orders { get; set; }
+        public DbSet<Cart> Cart { get; set; }
         public DbSet<History> History { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -56,7 +56,6 @@ namespace FlashMusic.Database
 
                 entity.Property(e => e.PicUrl).HasColumnName("picurl");
 
-                entity.Property(e => e.OrderId).HasColumnName("orderid");
             });
 
             modelBuilder.Entity<User>(entity =>
@@ -78,38 +77,51 @@ namespace FlashMusic.Database
                 entity.Property(e => e.Avatar).HasColumnName("avatar");
             });
 
-            modelBuilder.Entity<Orders>(entity =>
+            modelBuilder.Entity<Cart>(entity =>
             {
-                entity.ToTable("orders");
+                entity.ToTable("cart");
 
-                entity.HasKey(e => e.OrderId);
+                entity.HasKey(e => e.UserId);
 
-                entity.Property(e => e.OrderId)
+                entity.HasKey(e => e.ProductId);
+
+                entity.Property(e => e.UserId)
                     .IsRequired()
-                    .HasColumnName("orderid");
+                    .HasColumnName("userid");
+
+                entity.Property(e => e.ProductId)
+                    .IsRequired()
+                    .HasColumnName("productid");
 
                 entity.Property(e => e.Num).HasColumnName("num");
 
                 entity.Property(e => e.State).HasColumnName("state");
 
-                entity.Property(e => e.UserId).HasColumnName("userid");
-
-                entity.Property(e => e.HistoryId).HasColumnName("historyid");
             });
 
             modelBuilder.Entity<History>(entity =>
             {
                 entity.ToTable("history");
 
-                entity.HasKey(e => e.HistoryId);
+                entity.HasKey(e => e.UserId);
 
-                entity.Property(e => e.HistoryId)
+                entity.HasKey(e => e.ProductId);
+
+                entity.HasKey(e => e.PayTime);
+
+                entity.Property(e => e.UserId)
                     .IsRequired()
-                    .HasColumnName("historyid");
+                    .HasColumnName("userid");
 
-                entity.Property(e => e.UserId).HasColumnName("userid");
+                entity.Property(e => e.ProductId)
+                    .IsRequired()
+                    .HasColumnName("productid");
 
-                entity.Property(e => e.OrderId).HasColumnName("orderid");
+                entity.Property(e => e.PayTime)
+                    .IsRequired()
+                    .HasColumnName("paytime");
+
+                entity.Property(e => e.Num).HasColumnName("num");
             });
         }
     }

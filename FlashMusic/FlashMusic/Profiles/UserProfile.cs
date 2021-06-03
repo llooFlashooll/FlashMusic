@@ -13,10 +13,10 @@ namespace FlashMusic.Profiles
         public UserProfile()
         {
             CreateMap<UserAddDto, User>()
-                .ForMember(
-                    dest => dest.Avatar,
-                    opt => opt.MapFrom(src => Constant.DefaultPicUrl)
-                );
+                .AfterMap((src, dest) =>
+                {
+                    dest.Avatar = Constant.DefaultPicUrl;
+                });
         }
     }
 }

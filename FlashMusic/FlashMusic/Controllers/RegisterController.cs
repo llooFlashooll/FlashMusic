@@ -42,7 +42,8 @@ namespace FlashMusic.Controllers
             {
                 return Ok(Message.UserNameRepeat());
             }
-            var userinfo = _mapper.Map<User>(UserInfo);
+
+            var userinfo = _mapper.Map<UserAddDto, User>(UserInfo);
             if(!_authRepository.Register(userinfo))
             {
                 return Ok(Message.RegisterFail());

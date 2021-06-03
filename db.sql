@@ -18,37 +18,26 @@ create table product
 	categoryid int,
 	price double(16, 2) not null,
 	name varchar(255) not null,
-	picurl varchar(255),
-	orderid varchar(36)
+	picurl varchar(255)
 )
 charset=utf8;
 
-create table orders
+create table cart
 (
-	orderid varchar(36)
-		primary key not null,
+	userid int not null,
+	productid varchar(36) not null,
 	num int,
 	state int,
-	userid int,
-	historyid varchar(36)
+	primary key (userid, productid)
 )
 charset=utf8;
 
 create table history
 (
-	historyid varchar(36)
-		primary key not null,
-	userid int,
-	orderid varchar(36)
+	userid int not null,
+	productid varchar(36) not null,
+	paytime datetime not null,
+	num int,
+	primary key (userid, productid, paytime)
 )
 charset=utf8;
-
-Alter Table product Add constraint foreign key (orderid) references orders(orderid);
-
-Alter Table history Add constraint foreign key (userid) references user(userid);
-
-Alter Table history Add constraint foreign key (orderid) references orders(orderid);
-
-Alter Table orders Add constraint foreign key (userid) references user(userid);
-
-Alter Table orders Add constraint foreign key (historyid) references history(historyid);
