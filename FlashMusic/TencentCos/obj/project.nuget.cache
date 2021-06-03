@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IgRO4kvlbqotuQz48MNWEx64SNwPENN08CiBIM1GpE5+qqoxnb4gNNP+hvoCAsjLJfN2edfvcQes6sEkfXGc3Q==",
+  "success": true,
+  "projectFilePath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\TencentCos\\TencentCos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Flash\\.nuget\\packages\\tencent.qcloud.cos.sdk\\5.4.19\\tencent.qcloud.cos.sdk.5.4.19.nupkg.sha512"
+  ],
+  "logs": []
+}

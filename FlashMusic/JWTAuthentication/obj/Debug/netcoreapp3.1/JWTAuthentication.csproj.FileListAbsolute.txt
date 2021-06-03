@@ -1,0 +1,16 @@
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Debug\netcoreapp3.1\JWTAuthentication.exe
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Debug\netcoreapp3.1\JWTAuthentication.deps.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Debug\netcoreapp3.1\JWTAuthentication.runtimeconfig.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Debug\netcoreapp3.1\JWTAuthentication.runtimeconfig.dev.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Debug\netcoreapp3.1\JWTAuthentication.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Debug\netcoreapp3.1\JWTAuthentication.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Debug\netcoreapp3.1\JWT.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\obj\Debug\netcoreapp3.1\JWTAuthentication.csprojAssemblyReference.cache
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\obj\Debug\netcoreapp3.1\JWTAuthentication.AssemblyInfoInputs.cache
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\obj\Debug\netcoreapp3.1\JWTAuthentication.AssemblyInfo.cs
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\obj\Debug\netcoreapp3.1\JWTAuthentication.csproj.CoreCompileInputs.cache
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\obj\Debug\netcoreapp3.1\JWTAuthentication.csproj.CopyComplete
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\obj\Debug\netcoreapp3.1\JWTAuthentication.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\obj\Debug\netcoreapp3.1\JWTAuthentication.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\obj\Debug\netcoreapp3.1\JWTAuthentication.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Debug\netcoreapp3.1\TencentCos.exe
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Debug\netcoreapp3.1\TencentCos.deps.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Debug\netcoreapp3.1\TencentCos.runtimeconfig.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Debug\netcoreapp3.1\TencentCos.runtimeconfig.dev.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Debug\netcoreapp3.1\TencentCos.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Debug\netcoreapp3.1\TencentCos.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Debug\netcoreapp3.1\COSXML.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\obj\Debug\netcoreapp3.1\TencentCos.csprojAssemblyReference.cache
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\obj\Debug\netcoreapp3.1\TencentCos.AssemblyInfoInputs.cache
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\obj\Debug\netcoreapp3.1\TencentCos.AssemblyInfo.cs
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\obj\Debug\netcoreapp3.1\TencentCos.csproj.CoreCompileInputs.cache
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\obj\Debug\netcoreapp3.1\TencentCos.csproj.CopyComplete
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\obj\Debug\netcoreapp3.1\TencentCos.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\obj\Debug\netcoreapp3.1\TencentCos.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\obj\Debug\netcoreapp3.1\TencentCos.genruntimeconfig.cache
