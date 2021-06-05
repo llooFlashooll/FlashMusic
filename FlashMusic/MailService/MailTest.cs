@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MailService
 {
-    class MailTest
+    public class MailTest
     {
         static void Main(string[] args)
         {

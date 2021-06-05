@@ -33,6 +33,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "EntityFramework": "6.4.4",
+          "MailService": "1.0.0",
           "Microsoft.AspNet.WebApi": "5.2.7",
           "Microsoft.AspNet.WebApi.Client": "5.2.7",
           "Microsoft.AspNet.WebApi.HelpPage": "5.2.7",
@@ -48,6 +49,7 @@
           "MySql.Data.EntityFrameworkCore": "8.0.22",
           "Newtonsoft.Json": "13.0.1",
           "RabbitMQ.Client": "6.2.1",
+          "RabbitMQProducer": "1.0.0",
           "System.Linq.Dynamic.Core": "1.2.9",
           "stateless": "5.11.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -1327,6 +1329,26 @@
       "System.Windows.Extensions/4.7.0": {
         "dependencies": {
           "System.Drawing.Common": "4.7.0"
+        }
+      },
+      "MailService/1.0.0": {
+        "runtime": {
+          "MailService.dll": {}
+        },
+        "compile": {
+          "MailService.dll": {}
+        }
+      },
+      "RabbitMQProducer/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "runtime": {
+          "RabbitMQProducer.dll": {}
+        },
+        "compile": {
+          "RabbitMQProducer.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3522,6 +3544,16 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "MailService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RabbitMQProducer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

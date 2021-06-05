@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "M9B8t2lCaeBU3fkp//kiWf7YMNU0rL9X69Ac1im/den0Ib7gqlKD/b7UcQ7Tk3q3rMh2qvO1mf5KI7cyaFCRVw==",
+  "success": true,
+  "projectFilePath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\RabbitMQConsumer\\RabbitMQConsumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Flash\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Flash\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\Flash\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Flash\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

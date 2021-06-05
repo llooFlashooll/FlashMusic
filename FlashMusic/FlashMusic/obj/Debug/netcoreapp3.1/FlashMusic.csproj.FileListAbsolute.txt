@@ -93,3 +93,15 @@ F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcor
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\RabbitMQProducer.deps.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\RabbitMQProducer.runtimeconfig.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\RabbitMQProducer.runtimeconfig.dev.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\RabbitMQProducer.exe
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\RabbitMQProducer.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\RabbitMQProducer.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\MailService.deps.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\MailService.runtimeconfig.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\MailService.runtimeconfig.dev.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\MailService.exe
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\MailService.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\MailService.pdb

@@ -34,5 +34,10 @@
     <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MailService\MailService.csproj" />
+    <ProjectReference Include="..\RabbitMQProducer\RabbitMQProducer.csproj" />
+  </ItemGroup>
+
 
 </Project>

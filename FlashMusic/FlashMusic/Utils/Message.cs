@@ -27,6 +27,11 @@ namespace FlashMusic.Utils
             return new Message("密码未填写或密码太短", -1);
         }
 
+        public static Message EmailNotFilled()
+        {
+            return new Message("邮箱未填写", -1);
+        }
+
         public static Message UserNameRepeat()
         {
             return new Message("用户名已经被注册", -1);

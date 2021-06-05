@@ -3,6 +3,7 @@ using FlashMusic.Dtos;
 using FlashMusic.Models;
 using FlashMusic.Services;
 using FlashMusic.Utils;
+using MailService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace FlashMusic.Controllers
 {
-    [Route("/register")]
+    [Route("register")]
     [ApiController]
     public class RegisterController : ControllerBase
     {
@@ -38,17 +39,31 @@ namespace FlashMusic.Controllers
             {
                 return Ok(Message.PasswordNotFilled());
             }
+            if(UserInfo.Email == null)
+            {
+                return Ok(Message.EmailNotFilled());
+            }
             if(_authRepository.GetUserByName(UserInfo.UserName) != null)
             {
                 return Ok(Message.UserNameRepeat());
             }
 
             var userinfo = _mapper.Map<UserAddDto, User>(UserInfo);
-            if(!_authRepository.Register(userinfo))
-            {
+            string email = UserInfo.Email;
+            int flag = 0;
+            if(_authRepository.Register(userinfo))      // 操作数据库
+                flag = 1;
+            else
+                flag = 0;
+
+            if(flag == 0)
                 return Ok(Message.RegisterFail());
+            else
+            {
+                RabbitMQProducer.RabbitMQProducer.PublishMail(email);       // 发送邮件
+
+                return Ok(Message.RegisterSuccess());
             }
-            return Ok(Message.RegisterSuccess());
         }
     }
 }

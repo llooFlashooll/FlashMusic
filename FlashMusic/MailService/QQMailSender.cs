@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MailService
 {
-    class QQMailSender : MailBase
+    public class QQMailSender : MailBase
     {
         private const string host = "smtp.qq.com";
         private const int port = 25;

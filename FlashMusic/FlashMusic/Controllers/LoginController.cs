@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace FlashMusic.Controllers
 {
-    [Route("/login")]
+    [Route("login")]
     [ApiController]
     public class LoginController : ControllerBase
     {
