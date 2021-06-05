@@ -1,16 +1,14 @@
-﻿using System;
-using COSXML;
+﻿using COSXML;
 using COSXML.Auth;
-using COSXML.Model.Object;
 using COSXML.Model.Bucket;
-using COSXML.CosException;
-using COSXML.Model.Service;
-using System.Collections.Generic;
 using COSXML.Model.Tag;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace TencentCos
 {
-    class Program
+    class TencentCos
     {
         static void Main(string[] args)
         {

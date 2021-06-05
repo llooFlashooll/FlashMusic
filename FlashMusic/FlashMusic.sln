@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlashMusic", "FlashMusic\Fl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTAuthentication", "JWTAuthentication\JWTAuthentication.csproj", "{DAC9DC72-357A-4FBB-B29A-B88D6B9CEED1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TencentCos", "TencentCos\TencentCos.csproj", "{2C34C98C-94E3-4292-A139-37DF07D2626A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TencentCos", "TencentCos\TencentCos.csproj", "{2C34C98C-94E3-4292-A139-37DF07D2626A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailService", "MailService\MailService.csproj", "{8F38F657-3E4C-4941-B32C-CF04BAAB8224}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2C34C98C-94E3-4292-A139-37DF07D2626A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C34C98C-94E3-4292-A139-37DF07D2626A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C34C98C-94E3-4292-A139-37DF07D2626A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F38F657-3E4C-4941-B32C-CF04BAAB8224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F38F657-3E4C-4941-B32C-CF04BAAB8224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F38F657-3E4C-4941-B32C-CF04BAAB8224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F38F657-3E4C-4941-B32C-CF04BAAB8224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

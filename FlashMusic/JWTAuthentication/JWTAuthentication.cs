@@ -5,10 +5,11 @@ using JWT.Exceptions;
 using JWT.Serializers;
 using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace JWTAuthentication
 {
-    class Program
+    class JWTAuthentication
     {
         // 将 JWT 三个字母通过SHA256加密后得到
         private const string secret = "fc93cb07e1ad92898527100e58a1cf1d1e7f65e9a266a6f87f3c84feb541c7b3";
