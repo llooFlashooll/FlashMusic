@@ -78,7 +78,7 @@ namespace FlashMusic
 
 
             services.AddScoped<IAuthRepository, AuthRepository>();
-            // services.AddScoped<IShoppingRepository, ShoppingRepository>();
+            services.AddScoped<IShoppingRepository, ShoppingRepository>();
 
         }
 

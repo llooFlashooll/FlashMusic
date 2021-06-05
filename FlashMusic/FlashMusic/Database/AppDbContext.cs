@@ -46,9 +46,10 @@ namespace FlashMusic.Database
 
                 entity.Property(e => e.ProductId)
                     .IsRequired()
-                    .HasColumnName("productid");
+                    .HasColumnName("productid")
+                    .HasColumnType("varchar(36)");
 
-                entity.Property(e => e.CategoryId).HasColumnName("catagoryid");
+                entity.Property(e => e.CategoryId).HasColumnName("categoryid");
 
                 entity.Property(e => e.Price).HasColumnName("price");
 
@@ -91,7 +92,8 @@ namespace FlashMusic.Database
 
                 entity.Property(e => e.ProductId)
                     .IsRequired()
-                    .HasColumnName("productid");
+                    .HasColumnName("productid")
+                    .HasColumnType("varchar(36)");
 
                 entity.Property(e => e.Num).HasColumnName("num");
 
@@ -115,7 +117,8 @@ namespace FlashMusic.Database
 
                 entity.Property(e => e.ProductId)
                     .IsRequired()
-                    .HasColumnName("productid");
+                    .HasColumnName("productid")
+                    .HasColumnType("varchar(36)");
 
                 entity.Property(e => e.PayTime)
                     .IsRequired()

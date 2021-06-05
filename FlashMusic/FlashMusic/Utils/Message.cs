@@ -46,5 +46,60 @@ namespace FlashMusic.Utils
         {
             return new Message("未找到该用户", -1);
         }
+
+        public static Message GetCartSuccess()
+        {
+            return new Message("返回购物车成功", 200);
+        }
+
+        public static Message AddCartSuccess()
+        {
+            return new Message("添加购物车成功", 200);
+        }
+
+        public static Message AddCartFail()
+        {
+            return new Message("添加购物车失败", -1);
+        }
+
+        public static Message DelCartSuccess()
+        {
+            return new Message("删除购物车产品成功", 200);
+        }
+
+        public static Message DelCartFail()
+        {
+            return new Message("删除购物车产品失败", -1);
+        }
+
+        public static Message PayCartSuccess()
+        {
+            return new Message("支付购物车成功", 200);
+        }
+
+        public static Message PayCartFail()
+        {
+            return new Message("支付购物车失败", -1);
+        }
+
+        public static Message UpdateCartSuccess()
+        {
+            return new Message("更新购物车成功", 200);
+        }
+
+        public static Message UpdateCartFail()
+        {
+            return new Message("更新购物车失败", -1);
+        }
+
+        public static Message GetHistorySuccess()
+        {
+            return new Message("获取历史记录成功", 200);
+        }
+
+        public static Message GetHistoryFail()
+        {
+            return new Message("获取历史记录失败", -1);
+        }
     }
 }
