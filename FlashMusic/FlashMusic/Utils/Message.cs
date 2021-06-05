@@ -106,5 +106,10 @@ namespace FlashMusic.Utils
         {
             return new Message("获取历史记录失败", -1);
         }
+
+        public static Message GenerateUnpayOrderSuccess()
+        {
+            return new Message("创建未支付的订单成功", 200);
+        }
     }
 }

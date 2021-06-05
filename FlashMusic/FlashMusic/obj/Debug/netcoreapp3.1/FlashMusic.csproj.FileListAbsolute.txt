@@ -105,3 +105,9 @@ F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcor
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\MailService.exe
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\MailService.dll
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\MailService.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\OrderRabbitMQProducer.deps.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\OrderRabbitMQProducer.runtimeconfig.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\OrderRabbitMQProducer.runtimeconfig.dev.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\OrderRabbitMQProducer.exe
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\OrderRabbitMQProducer.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\OrderRabbitMQProducer.pdb

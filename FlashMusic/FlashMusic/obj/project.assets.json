@@ -1101,6 +1101,21 @@
           "bin/placeholder/MailService.dll": {}
         }
       },
+      "OrderRabbitMQProducer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "RabbitMQ.Client": "6.2.1",
+          "RabbitMQProducer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderRabbitMQProducer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderRabbitMQProducer.dll": {}
+        }
+      },
       "RabbitMQProducer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -3275,6 +3290,11 @@
       "path": "../MailService/MailService.csproj",
       "msbuildProject": "../MailService/MailService.csproj"
     },
+    "OrderRabbitMQProducer/1.0.0": {
+      "type": "project",
+      "path": "../OrderRabbitMQProducer/OrderRabbitMQProducer.csproj",
+      "msbuildProject": "../OrderRabbitMQProducer/OrderRabbitMQProducer.csproj"
+    },
     "RabbitMQProducer/1.0.0": {
       "type": "project",
       "path": "../RabbitMQProducer/RabbitMQProducer.csproj",
@@ -3300,6 +3320,7 @@
       "MySql.Data.EntityFramework >= 8.0.25",
       "MySql.Data.EntityFrameworkCore >= 8.0.22",
       "Newtonsoft.Json >= 13.0.1",
+      "OrderRabbitMQProducer >= 1.0.0",
       "RabbitMQ.Client >= 6.2.1",
       "RabbitMQProducer >= 1.0.0",
       "System.Linq.Dynamic.Core >= 1.2.9",
@@ -3339,6 +3360,9 @@
           "projectReferences": {
             "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\MailService\\MailService.csproj": {
               "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\MailService\\MailService.csproj"
+            },
+            "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\OrderRabbitMQProducer\\OrderRabbitMQProducer.csproj": {
+              "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\OrderRabbitMQProducer\\OrderRabbitMQProducer.csproj"
             },
             "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\RabbitMQProducer\\RabbitMQProducer.csproj": {
               "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\RabbitMQProducer\\RabbitMQProducer.csproj"

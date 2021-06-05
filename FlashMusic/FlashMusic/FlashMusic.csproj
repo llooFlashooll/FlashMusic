@@ -36,6 +36,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MailService\MailService.csproj" />
+    <ProjectReference Include="..\OrderRabbitMQProducer\OrderRabbitMQProducer.csproj" />
     <ProjectReference Include="..\RabbitMQProducer\RabbitMQProducer.csproj" />
   </ItemGroup>
 

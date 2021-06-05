@@ -19,12 +19,14 @@ namespace FlashMusic.Controllers
     public class CartController : ControllerBase
     {
         private IShoppingRepository _shoppingRepository;
+        private IAuthRepository _authRepository;
         private IHttpContextAccessor _httpContextAccessor;
         private IMapper _mapper;
 
-        public CartController(IShoppingRepository shoppingRepository, IHttpContextAccessor httpContextAccessor, IMapper mapper)
+        public CartController(IShoppingRepository shoppingRepository, IAuthRepository authRepository, IHttpContextAccessor httpContextAccessor, IMapper mapper)
         {
             this._shoppingRepository = shoppingRepository;
+            this._authRepository = authRepository;
             this._httpContextAccessor = httpContextAccessor;
             this._mapper = mapper;
         }
@@ -48,6 +50,18 @@ namespace FlashMusic.Controllers
                 cartnum = cartnum,
                 totalprice = totalprice
             });
+        }
+
+        [HttpGet("num")]
+        [Authorize]
+        public IActionResult GetCartNum()
+        {
+            var id = _httpContextAccessor.HttpContext.User.FindFirst("Id").Value;
+            int userid = Int32.Parse(id);
+            IEnumerable<CartGetDto> cartlist = _shoppingRepository.GetCartByUserId(userid);
+            int cartnum = cartlist.Count();
+
+            return Ok(cartnum);
         }
 
         // 添加单个商品
@@ -103,6 +117,27 @@ namespace FlashMusic.Controllers
             {
                 return Ok(Message.PayCartFail());
             }
+        }
+
+        [HttpPost("order")]
+        [Authorize]
+        public IActionResult GenerateUnpayOrder()
+        {
+            var id = _httpContextAccessor.HttpContext.User.FindFirst("Id").Value;
+            int userid = Int32.Parse(id);
+
+
+            User existUser = _authRepository.GetUserById(userid);
+            // string email = existUser.Email;
+            string email = "zeyangzhuang0315@gmail.com";
+            string token = _authRepository.GetToken(existUser);
+
+            string message = email + " " + token;
+
+            OrderRabbitMQProducer.OrderProducer.PublishMsg(message);
+
+            return Ok(Message.GenerateUnpayOrderSuccess());
+
         }
 
         // 测试AddRange使用

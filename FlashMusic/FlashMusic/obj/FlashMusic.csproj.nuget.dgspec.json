@@ -34,6 +34,9 @@
               "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\MailService\\MailService.csproj": {
                 "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\MailService\\MailService.csproj"
               },
+              "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\OrderRabbitMQProducer\\OrderRabbitMQProducer.csproj": {
+                "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\OrderRabbitMQProducer\\OrderRabbitMQProducer.csproj"
+              },
               "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\RabbitMQProducer\\RabbitMQProducer.csproj": {
                 "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\RabbitMQProducer\\RabbitMQProducer.csproj"
               }
@@ -189,6 +192,77 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\OrderRabbitMQProducer\\OrderRabbitMQProducer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\OrderRabbitMQProducer\\OrderRabbitMQProducer.csproj",
+        "projectName": "OrderRabbitMQProducer",
+        "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\OrderRabbitMQProducer\\OrderRabbitMQProducer.csproj",
+        "packagesPath": "C:\\Users\\Flash\\.nuget\\packages\\",
+        "outputPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\OrderRabbitMQProducer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Flash\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\RabbitMQProducer\\RabbitMQProducer.csproj": {
+                "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\RabbitMQProducer\\RabbitMQProducer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
