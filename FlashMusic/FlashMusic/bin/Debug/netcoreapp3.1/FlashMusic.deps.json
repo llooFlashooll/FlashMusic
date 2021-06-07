@@ -47,6 +47,8 @@
           "MySql.Data": "8.0.25",
           "MySql.Data.EntityFramework": "8.0.25",
           "MySql.Data.EntityFrameworkCore": "8.0.22",
+          "NeteaseCloudMusicApi": "3.25.3.10000",
+          "NeteaseCloudMusicApi.Demo": "1.0.0",
           "Newtonsoft.Json": "13.0.1",
           "OrderRabbitMQProducer": "1.0.0",
           "RabbitMQ.Client": "6.2.1",
@@ -1338,6 +1340,29 @@
         },
         "compile": {
           "MailService.dll": {}
+        }
+      },
+      "NeteaseCloudMusicApi/3.25.3.10000": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "NeteaseCloudMusicApi.dll": {}
+        },
+        "compile": {
+          "NeteaseCloudMusicApi.dll": {}
+        }
+      },
+      "NeteaseCloudMusicApi.Demo/1.0.0": {
+        "dependencies": {
+          "NeteaseCloudMusicApi": "3.25.3.10000",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "NeteaseCloudMusicApi.Demo.dll": {}
+        },
+        "compile": {
+          "NeteaseCloudMusicApi.Demo.dll": {}
         }
       },
       "OrderRabbitMQProducer/1.0.0": {
@@ -3560,6 +3585,16 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "MailService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NeteaseCloudMusicApi/3.25.3.10000": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NeteaseCloudMusicApi.Demo/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

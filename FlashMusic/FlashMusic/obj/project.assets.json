@@ -1101,6 +1101,33 @@
           "bin/placeholder/MailService.dll": {}
         }
       },
+      "NeteaseCloudMusicApi/3.25.3.10000": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "bin/placeholder/NeteaseCloudMusicApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NeteaseCloudMusicApi.dll": {}
+        }
+      },
+      "NeteaseCloudMusicApi.Demo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "NeteaseCloudMusicApi": "3.25.3.10000",
+          "Newtonsoft.Json": "12.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NeteaseCloudMusicApi.Demo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NeteaseCloudMusicApi.Demo.dll": {}
+        }
+      },
       "OrderRabbitMQProducer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -3290,6 +3317,16 @@
       "path": "../MailService/MailService.csproj",
       "msbuildProject": "../MailService/MailService.csproj"
     },
+    "NeteaseCloudMusicApi/3.25.3.10000": {
+      "type": "project",
+      "path": "../../../NeteaseCloudMusicApi_C#/NeteaseCloudMusicApi/NeteaseCloudMusicApi.csproj",
+      "msbuildProject": "../../../NeteaseCloudMusicApi_C#/NeteaseCloudMusicApi/NeteaseCloudMusicApi.csproj"
+    },
+    "NeteaseCloudMusicApi.Demo/1.0.0": {
+      "type": "project",
+      "path": "../../../NeteaseCloudMusicApi_C#/NeteaseCloudMusicApi.Demo/NeteaseCloudMusicApi.Demo.csproj",
+      "msbuildProject": "../../../NeteaseCloudMusicApi_C#/NeteaseCloudMusicApi.Demo/NeteaseCloudMusicApi.Demo.csproj"
+    },
     "OrderRabbitMQProducer/1.0.0": {
       "type": "project",
       "path": "../OrderRabbitMQProducer/OrderRabbitMQProducer.csproj",
@@ -3319,6 +3356,8 @@
       "MySql.Data >= 8.0.25",
       "MySql.Data.EntityFramework >= 8.0.25",
       "MySql.Data.EntityFrameworkCore >= 8.0.22",
+      "NeteaseCloudMusicApi >= 3.25.3.10000",
+      "NeteaseCloudMusicApi.Demo >= 1.0.0",
       "Newtonsoft.Json >= 13.0.1",
       "OrderRabbitMQProducer >= 1.0.0",
       "RabbitMQ.Client >= 6.2.1",
@@ -3366,6 +3405,12 @@
             },
             "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\RabbitMQProducer\\RabbitMQProducer.csproj": {
               "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\RabbitMQProducer\\RabbitMQProducer.csproj"
+            },
+            "F:\\Asp.NetCore Project\\NeteaseCloudMusicApi_C#\\NeteaseCloudMusicApi.Demo\\NeteaseCloudMusicApi.Demo.csproj": {
+              "projectPath": "F:\\Asp.NetCore Project\\NeteaseCloudMusicApi_C#\\NeteaseCloudMusicApi.Demo\\NeteaseCloudMusicApi.Demo.csproj"
+            },
+            "F:\\Asp.NetCore Project\\NeteaseCloudMusicApi_C#\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj": {
+              "projectPath": "F:\\Asp.NetCore Project\\NeteaseCloudMusicApi_C#\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj"
             }
           }
         }

@@ -111,3 +111,12 @@ F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcor
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\OrderRabbitMQProducer.exe
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\OrderRabbitMQProducer.dll
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\OrderRabbitMQProducer.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\NeteaseCloudMusicApi.Demo.deps.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\NeteaseCloudMusicApi.Demo.runtimeconfig.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\NeteaseCloudMusicApi.Demo.runtimeconfig.dev.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\NeteaseCloudMusicApi.Demo.exe
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\NeteaseCloudMusicApi.Demo.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\NeteaseCloudMusicApi.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\NeteaseCloudMusicApi.Demo.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\NeteaseCloudMusicApi.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\NeteaseCloudMusicApi.xml

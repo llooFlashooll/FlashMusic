@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yoHJygT6RauXOEpf/vlJ2scyGHBPq7UJ1uR8pNN6lT4/mQ8N14hcz+lz8XfPHZ/dDTkAxYb5LdJG6B3kVsRWLg==",
+  "dgSpecHash": "PDF2Zdthp5SemlvowON4XF2mCkm92JprDuM6Bp+NVmlFsEQI1Qg1P9yiSlaN7PdKfVZHfZReTxDOczNqaIUDdA==",
   "success": true,
   "projectFilePath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\OrderRabbitMQConsumer\\OrderRabbitMQConsumer.csproj",
   "expectedPackageFiles": [

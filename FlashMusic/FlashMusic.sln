@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQProducer", "RabbitM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQConsumer", "RabbitMQConsumer\RabbitMQConsumer.csproj", "{991CF1A2-6679-4033-8AA0-2847C5166B47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderRabbitMQProducer", "OrderRabbitMQProducer\OrderRabbitMQProducer.csproj", "{02D2F92A-6FE3-424C-98D6-5D6E3A8B7B5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderRabbitMQProducer", "OrderRabbitMQProducer\OrderRabbitMQProducer.csproj", "{02D2F92A-6FE3-424C-98D6-5D6E3A8B7B5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderRabbitMQConsumer", "OrderRabbitMQConsumer\OrderRabbitMQConsumer.csproj", "{121737F6-D93C-4D14-8618-3E711FB3088F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderRabbitMQConsumer", "OrderRabbitMQConsumer\OrderRabbitMQConsumer.csproj", "{121737F6-D93C-4D14-8618-3E711FB3088F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeteaseCloudMusicApi", "..\..\NeteaseCloudMusicApi_C#\NeteaseCloudMusicApi\NeteaseCloudMusicApi.csproj", "{5AFAD575-FE73-4FFF-B09E-1D81C9170DEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeteaseCloudMusicApi.Demo", "..\..\NeteaseCloudMusicApi_C#\NeteaseCloudMusicApi.Demo\NeteaseCloudMusicApi.Demo.csproj", "{C1988996-D9C0-4751-A9E2-1206B9A18694}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{121737F6-D93C-4D14-8618-3E711FB3088F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{121737F6-D93C-4D14-8618-3E711FB3088F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{121737F6-D93C-4D14-8618-3E711FB3088F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AFAD575-FE73-4FFF-B09E-1D81C9170DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFAD575-FE73-4FFF-B09E-1D81C9170DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFAD575-FE73-4FFF-B09E-1D81C9170DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFAD575-FE73-4FFF-B09E-1D81C9170DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1988996-D9C0-4751-A9E2-1206B9A18694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1988996-D9C0-4751-A9E2-1206B9A18694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1988996-D9C0-4751-A9E2-1206B9A18694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1988996-D9C0-4751-A9E2-1206B9A18694}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
