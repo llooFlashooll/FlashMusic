@@ -47,9 +47,19 @@ namespace FlashMusic.Utils
             return new Message("注册失败", -1);
         }
 
-        public static Message LoginFail()
+        public static Message LoginUnfindUser()
         {
             return new Message("未找到该用户", -1);
+        }
+
+        public static Message LoginExceedTimes(string msg)
+        {
+            return new Message(msg, -1);
+        }
+
+        public static Message LoginPasswordError()
+        {
+            return new Message("密码错误", -1);
         }
 
         public static Message GetCartSuccess()

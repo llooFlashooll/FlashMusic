@@ -1,6 +1,7 @@
 using FlashMusic.Database;
 using FlashMusic.Models;
 using FlashMusic.Services;
+using FlashMusic.Utils;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -73,9 +74,10 @@ namespace FlashMusic
                 options.UseMySQL(Configuration["DbContext:ConnectionString"]);
             });
 
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
             // 注意AddTransient、AddSingleton、AddScoped的区别，注册服务
             services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
-
 
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<IShoppingRepository, ShoppingRepository>();
