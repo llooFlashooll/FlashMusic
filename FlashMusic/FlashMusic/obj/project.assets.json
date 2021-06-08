@@ -3319,13 +3319,13 @@
     },
     "NeteaseCloudMusicApi/3.25.3.10000": {
       "type": "project",
-      "path": "../../../NeteaseCloudMusicApi_C#/NeteaseCloudMusicApi/NeteaseCloudMusicApi.csproj",
-      "msbuildProject": "../../../NeteaseCloudMusicApi_C#/NeteaseCloudMusicApi/NeteaseCloudMusicApi.csproj"
+      "path": "../NeteaseCloudMusicApi/NeteaseCloudMusicApi.csproj",
+      "msbuildProject": "../NeteaseCloudMusicApi/NeteaseCloudMusicApi.csproj"
     },
     "NeteaseCloudMusicApi.Demo/1.0.0": {
       "type": "project",
-      "path": "../../../NeteaseCloudMusicApi_C#/NeteaseCloudMusicApi.Demo/NeteaseCloudMusicApi.Demo.csproj",
-      "msbuildProject": "../../../NeteaseCloudMusicApi_C#/NeteaseCloudMusicApi.Demo/NeteaseCloudMusicApi.Demo.csproj"
+      "path": "../NeteaseCloudMusicApi.Demo/NeteaseCloudMusicApi.Demo.csproj",
+      "msbuildProject": "../NeteaseCloudMusicApi.Demo/NeteaseCloudMusicApi.Demo.csproj"
     },
     "OrderRabbitMQProducer/1.0.0": {
       "type": "project",
@@ -3400,17 +3400,17 @@
             "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\MailService\\MailService.csproj": {
               "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\MailService\\MailService.csproj"
             },
+            "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\NeteaseCloudMusicApi.Demo\\NeteaseCloudMusicApi.Demo.csproj": {
+              "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\NeteaseCloudMusicApi.Demo\\NeteaseCloudMusicApi.Demo.csproj"
+            },
+            "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj": {
+              "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj"
+            },
             "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\OrderRabbitMQProducer\\OrderRabbitMQProducer.csproj": {
               "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\OrderRabbitMQProducer\\OrderRabbitMQProducer.csproj"
             },
             "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\RabbitMQProducer\\RabbitMQProducer.csproj": {
               "projectPath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\RabbitMQProducer\\RabbitMQProducer.csproj"
-            },
-            "F:\\Asp.NetCore Project\\NeteaseCloudMusicApi_C#\\NeteaseCloudMusicApi.Demo\\NeteaseCloudMusicApi.Demo.csproj": {
-              "projectPath": "F:\\Asp.NetCore Project\\NeteaseCloudMusicApi_C#\\NeteaseCloudMusicApi.Demo\\NeteaseCloudMusicApi.Demo.csproj"
-            },
-            "F:\\Asp.NetCore Project\\NeteaseCloudMusicApi_C#\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj": {
-              "projectPath": "F:\\Asp.NetCore Project\\NeteaseCloudMusicApi_C#\\NeteaseCloudMusicApi\\NeteaseCloudMusicApi.csproj"
             }
           }
         }

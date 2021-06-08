@@ -3289,13 +3289,13 @@
     },
     "NeteaseCloudMusicApi/3.25.3.10000": {
       "type": "project",
-      "path": "../../../NeteaseCloudMusicApi_C#/NeteaseCloudMusicApi/NeteaseCloudMusicApi.csproj",
-      "msbuildProject": "../../../NeteaseCloudMusicApi_C#/NeteaseCloudMusicApi/NeteaseCloudMusicApi.csproj"
+      "path": "../NeteaseCloudMusicApi/NeteaseCloudMusicApi.csproj",
+      "msbuildProject": "../NeteaseCloudMusicApi/NeteaseCloudMusicApi.csproj"
     },
     "NeteaseCloudMusicApi.Demo/1.0.0": {
       "type": "project",
-      "path": "../../../NeteaseCloudMusicApi_C#/NeteaseCloudMusicApi.Demo/NeteaseCloudMusicApi.Demo.csproj",
-      "msbuildProject": "../../../NeteaseCloudMusicApi_C#/NeteaseCloudMusicApi.Demo/NeteaseCloudMusicApi.Demo.csproj"
+      "path": "../NeteaseCloudMusicApi.Demo/NeteaseCloudMusicApi.Demo.csproj",
+      "msbuildProject": "../NeteaseCloudMusicApi.Demo/NeteaseCloudMusicApi.Demo.csproj"
     },
     "OrderRabbitMQProducer/1.0.0": {
       "type": "project",

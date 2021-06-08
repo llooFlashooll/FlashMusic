@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+cQSW8kKzM1Fmwn/sYddJRdq4Jl0acIvdzyJFAn4II88N/w8layhvn3QWbfgvIYK2ZN3qGZX6/PQgtbClqWx6A==",
+  "success": true,
+  "projectFilePath": "F:\\Asp.NetCore Project\\FlashMusic-Backend\\FlashMusic\\NeteaseCloudMusicApi.Demo\\NeteaseCloudMusicApi.Demo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Flash\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

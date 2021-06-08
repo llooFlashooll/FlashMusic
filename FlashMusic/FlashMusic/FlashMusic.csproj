@@ -36,9 +36,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\NeteaseCloudMusicApi_C#\NeteaseCloudMusicApi.Demo\NeteaseCloudMusicApi.Demo.csproj" />
-    <ProjectReference Include="..\..\..\NeteaseCloudMusicApi_C#\NeteaseCloudMusicApi\NeteaseCloudMusicApi.csproj" />
     <ProjectReference Include="..\MailService\MailService.csproj" />
+    <ProjectReference Include="..\NeteaseCloudMusicApi.Demo\NeteaseCloudMusicApi.Demo.csproj" />
+    <ProjectReference Include="..\NeteaseCloudMusicApi\NeteaseCloudMusicApi.csproj" />
     <ProjectReference Include="..\OrderRabbitMQProducer\OrderRabbitMQProducer.csproj" />
     <ProjectReference Include="..\RabbitMQProducer\RabbitMQProducer.csproj" />
   </ItemGroup>
