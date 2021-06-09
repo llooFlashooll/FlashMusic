@@ -1,7 +1,7 @@
 import json
 import pymysql
 
-coon=pymysql.connect(host="119.3.254.34",port=3306,user="root",password="123456",db="flashmusic_db");
+coon=pymysql.connect(host="47.103.56.113",port=3306,user="root",password="123456",db="flashmusic_db");
 cursor=coon.cursor();
 
 product = []

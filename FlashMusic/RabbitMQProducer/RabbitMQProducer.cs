@@ -13,7 +13,7 @@ namespace RabbitMQProducer
                 {
                     var factory = new ConnectionFactory
                     {
-                        Uri = new Uri("amqp://guest:guest@119.3.254.34:5672")
+                        Uri = new Uri("amqp://guest:guest@47.103.56.113:5672")
                     };
 
                     using var connection = factory.CreateConnection();

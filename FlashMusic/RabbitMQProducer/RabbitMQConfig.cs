@@ -14,7 +14,7 @@ namespace RabbitMQProducer
 
         static RabbitMQConfig()
         {
-            Host = "119.3.254.34";
+            Host = "47.103.56.113";
             VirtualHost = "/";
             UserName = "guest";
             Password = "guest";

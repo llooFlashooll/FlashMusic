@@ -31,22 +31,22 @@ namespace FlashMusic.Utils
         }
 
         // 初始化连接connection
-/*        public static void InitConnect(IConfiguration Configuration)
-        {
-            try
-            {
-                // var RedisConnection = "119.3.254.34, password=123456, DefaultDatabase=0";
-                var RedisConnection = Configuration.GetConnectionString("RedisConnectionString");
-                redis = ConnectionMultiplexer.Connect(RedisConnection);
-                database = redis.GetDatabase();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                redis = null;
-                database = null;
-            }
-        }*/
+        /*        public static void InitConnect(IConfiguration Configuration)
+                {
+                    try
+                    {
+                        // var RedisConnection = "47.103.56.113, password=123456, DefaultDatabase=0";
+                        var RedisConnection = Configuration.GetConnectionString("RedisConnectionString");
+                        redis = ConnectionMultiplexer.Connect(RedisConnection);
+                        database = redis.GetDatabase();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                        redis = null;
+                        database = null;
+                    }
+                }*/
 
         /// <summary>
         /// 查询键值是否在Redis中存在

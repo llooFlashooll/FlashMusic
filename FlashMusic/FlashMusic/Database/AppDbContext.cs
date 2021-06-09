@@ -26,7 +26,7 @@ namespace FlashMusic.Database
         {
             if(!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySQL("server=119.3.254.34; port=3306; Database=flashmusic_db; user id=root; password=123456;");
+                optionsBuilder.UseMySQL("server=47.103.56.113; port=3306; Database=flashmusic_db; user id=root; password=123456;");
             }
         }
 

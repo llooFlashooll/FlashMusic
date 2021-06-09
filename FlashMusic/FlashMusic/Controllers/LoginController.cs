@@ -25,7 +25,7 @@ namespace FlashMusic.Controllers
 
         private static readonly int TIME_EXPIRE = 300;
         private static readonly int FAIL_RETRY_TIMES = 3;
-        private static readonly string RedisConnectionString = "119.3.254.34, password=123456, DefaultDatabase=0";
+        private static readonly string RedisConnectionString = "47.103.56.113, password=123456, DefaultDatabase=0";
 
 
         public LoginController(IAuthRepository authRepository, IHttpContextAccessor httpContextAccessor, IMapper mapper)
