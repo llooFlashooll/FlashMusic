@@ -7,7 +7,6 @@ F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\bin\Debug\
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
-F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\obj\Debug\netcoreapp3.1\RabbitMQProducer.csprojAssemblyReference.cache
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\obj\Debug\netcoreapp3.1\RabbitMQProducer.AssemblyInfoInputs.cache
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\obj\Debug\netcoreapp3.1\RabbitMQProducer.AssemblyInfo.cs
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\obj\Debug\netcoreapp3.1\RabbitMQProducer.csproj.CoreCompileInputs.cache

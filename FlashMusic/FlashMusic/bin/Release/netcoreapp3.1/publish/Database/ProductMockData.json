@@ -1,0 +1,631 @@
+[{
+        "ProductId": "d174fc7e-c39b-11eb-a087-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 199,
+        "Name": "联想击音TWS01【双耳磁吸】晨鼓真无线 专业Hifi音效低功耗蓝牙 半入耳式通话跑步运动降噪",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/1.jpg"
+    },
+    {
+        "ProductId": "d174fc7f-c39b-11eb-82eb-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 209,
+        "Name": "漫步者（EDIFIER）MINI-BUDS 真无线蓝牙5.0小巧入耳式手机音乐通话耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/2.jpg"
+    },
+    {
+        "ProductId": "d175238a-c39b-11eb-9eb2-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 169,
+        "Name": "小黄鸭/B.Duck 正版授权联名款 K3真无线TWS蓝牙耳机入耳式",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/3.jpg"
+    },
+    {
+        "ProductId": "d175238b-c39b-11eb-959f-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 199,
+        "Name": "影巨人i36 第三代真无线 三真电量 降噪通话 光感入耳 安卓苹果通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/4.jpg"
+    },
+    {
+        "ProductId": "d175238c-c39b-11eb-a14c-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 128,
+        "Name": "漫威正版复仇者联名系列 Hobby Box MHS609 挂脖式蓝牙跑步运动音乐耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/5.jpg"
+    },
+    {
+        "ProductId": "d175238d-c39b-11eb-9668-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 199,
+        "Name": "漫威正版复仇者联名系列 MORSTORM T1 真无线TWS入耳式滑盖蓝牙耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/6.jpg"
+    },
+    {
+        "ProductId": "d1754aae-c39b-11eb-b6f3-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 239,
+        "Name": "月神Z3 双芯6D音效50小时双耳续航真无线防水蓝牙耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/7.jpg"
+    },
+    {
+        "ProductId": "d1754aaf-c39b-11eb-93bf-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 249,
+        "Name": "Disney迪士尼松松化妆镜 无线蓝牙耳机 入耳式运动跑步 音乐通话耳塞",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/8.jpg"
+    },
+    {
+        "ProductId": "d1754ab0-c39b-11eb-8411-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 59,
+        "Name": "影巨人 T3半入耳式重低音线控带麦安卓苹果通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/9.jpg"
+    },
+    {
+        "ProductId": "d1754ab1-c39b-11eb-a3ab-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 179,
+        "Name": "漫威正版复仇者联名系列 APORO AirRro 真无线TWS蓝牙对耳耳机入耳式",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/10.jpg"
+    },
+    {
+        "ProductId": "d1754ab2-c39b-11eb-abab-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 49,
+        "Name": "Tuddrom小魔鸭 MO5 通话降噪 运动跑步 吃鸡游戏 入耳式线控带麦耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/11.jpg"
+    },
+    {
+        "ProductId": "d17571b6-c39b-11eb-abd1-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 288.8,
+        "Name": "智能通话降噪真无线I40 Pro三真电量 光感入耳检测 无线充电 安卓苹果通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/12.jpg"
+    },
+    {
+        "ProductId": "d17571b7-c39b-11eb-b2dc-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 199,
+        "Name": "影巨人J18 双麦通话降噪 智能指纹触控 真无线蓝牙耳机入耳式 手机通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/13.jpg"
+    },
+    {
+        "ProductId": "d17571b8-c39b-11eb-a81f-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 299,
+        "Name": "H12Pro 智能双数显真无线  蓝牙5.0安卓苹果通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/14.jpg"
+    },
+    {
+        "ProductId": "d17598be-c39b-11eb-ad3b-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 99,
+        "Name": "影巨人X10 Plus 超长续航 脖挂入耳式运动型蓝牙耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/15.jpg"
+    },
+    {
+        "ProductId": "d17598bf-c39b-11eb-907c-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 229,
+        "Name": "HT color 二代马卡龙无线多彩 智能触控 开盖秒连 音乐通话蓝牙耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/16.jpg"
+    },
+    {
+        "ProductId": "d17598c0-c39b-11eb-b916-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 39,
+        "Name": "【想见你】同款 UiiSii U8入耳式线控重低音游戏耳机  安卓苹果通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/17.jpg"
+    },
+    {
+        "ProductId": "d17598c1-c39b-11eb-845c-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 59,
+        "Name": "兰士顿 JM26 线控带麦 入耳式面条线 时尚音乐耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/18.jpg"
+    },
+    {
+        "ProductId": "d17598c2-c39b-11eb-a2cc-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 199,
+        "Name": "UiiSii CM5 【网红同款】全民K歌 游戏电竞 时尚音乐 重低音入耳式 双单元定制款耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/19.jpg"
+    },
+    {
+        "ProductId": "d175bfe4-c39b-11eb-9ffd-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 298,
+        "Name": "i19蓝牙5.0真无线耳机 光感入耳 记忆配对 无线充电 苹果安卓通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/20.jpg"
+    },
+    {
+        "ProductId": "d175bfe5-c39b-11eb-a1b4-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 228,
+        "Name": "H16 Pro 光感入耳检测 开盖秒连 无线充电 蓝牙5.0真无线耳机 苹果安卓通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/21.jpg"
+    },
+    {
+        "ProductId": "d175bfe6-c39b-11eb-b0bc-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 129,
+        "Name": "i12真无线蓝牙耳机 智能触控 改名定位 双耳运动跑步 安卓苹果通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/22.jpg"
+    },
+    {
+        "ProductId": "d175bfe7-c39b-11eb-984a-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 89,
+        "Name": "i9S蓝牙5.0真无线 双耳高清通话 苹果安卓通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/23.jpg"
+    },
+    {
+        "ProductId": "d175e6ee-c39b-11eb-b879-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 88,
+        "Name": "影巨人 T5复合双振膜重低音线控带麦半入耳式耳机安卓苹果通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/24.jpg"
+    },
+    {
+        "ProductId": "d175e6ef-c39b-11eb-8586-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 399,
+        "Name": "漫步者（EDIFIER）W3 小黄人联名款 真无线蓝牙入耳式手机通用音乐耳机耳塞",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/25.jpg"
+    },
+    {
+        "ProductId": "d175e6f0-c39b-11eb-8f91-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 388.8,
+        "Name": "H20蓝牙5.0真无线耳机 光感检测无线充电 苹果安卓通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/26.jpg"
+    },
+    {
+        "ProductId": "d175e6f1-c39b-11eb-b845-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 399,
+        "Name": "击音 小静T3 年轻人的降噪耳机[轻至180g/50小时降噪] 寝室/自习/游戏静享",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/27.jpg"
+    },
+    {
+        "ProductId": "d1760df8-c39b-11eb-8a4a-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 149,
+        "Name": "击音【触控级】降噪防水手势识别蓝牙运动耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/28.jpg"
+    },
+    {
+        "ProductId": "d1760df9-c39b-11eb-b4be-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 199,
+        "Name": "网易云音乐联名款W800X头戴式蓝牙耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/29.jpg"
+    },
+    {
+        "ProductId": "d1760dfa-c39b-11eb-9c2a-4cedfb0aecb7",
+        "CategoryId": 1,
+        "Price": 299.8,
+        "Name": "联想击音Super HDⅡ【58小时超长续航】全触控HIFI降噪无线有线双模蓝牙头戴耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/30.jpg"
+    },
+    {
+        "ProductId": "d9879334-c39b-11eb-8958-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 110,
+        "Name": "幸运石 天宝伏妖录正版授权 国动漫周边 裘永思山河笔饰品指环",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/31.jpg"
+    },
+    {
+        "ProductId": "d9879335-c39b-11eb-8059-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 50,
+        "Name": "【预售】南征北战NZBZ《二十多岁，无人欣赏》实体CD，前10名下单必含签名专辑，购买即有机会获签名版专辑",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/32.jpg"
+    },
+    {
+        "ProductId": "d987ba38-c39b-11eb-b710-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 39,
+        "Name": "神奇女侠加固加厚黑胶防晒晴雨伞自动雨伞",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/33.jpg"
+    },
+    {
+        "ProductId": "d987ba39-c39b-11eb-a7bc-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 198,
+        "Name": "张杰 Risk It All声来无畏 英文实体专辑 CD+U盘",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/34.jpg"
+    },
+    {
+        "ProductId": "d987ba3a-c39b-11eb-aaf3-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 79,
+        "Name": "薛之谦《尘》 第十张实体专辑",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/35.jpg"
+    },
+    {
+        "ProductId": "d987ba3b-c39b-11eb-bca8-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 65,
+        "Name": "薛之谦《初学者》第七张实体专辑",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/36.jpg"
+    },
+    {
+        "ProductId": "d987ba3c-c39b-11eb-b799-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 19,
+        "Name": "正义联盟神奇女侠气囊立体pvc多功能气囊支架",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/37.jpg"
+    },
+    {
+        "ProductId": "d987e15c-c39b-11eb-ab3c-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 60,
+        "Name": "木兰辞《洛神赋》作者叶露盈全新东方古典画集",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/38.jpg"
+    },
+    {
+        "ProductId": "d987e15d-c39b-11eb-a402-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 178,
+        "Name": "史上最高の嵐! 1COOL編",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/39.jpg"
+    },
+    {
+        "ProductId": "d987e15e-c39b-11eb-b940-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 88,
+        "Name": "逍遥乐队×MAGICBUS联名款帆布包",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/40.jpg"
+    },
+    {
+        "ProductId": "d987e15f-c39b-11eb-9a55-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 25,
+        "Name": "步履不停 电影大师是枝裕和亲撰",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/41.jpg"
+    },
+    {
+        "ProductId": "d987e160-c39b-11eb-b75e-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 31,
+        "Name": "刘同 谁的青春不迷茫 新版",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/42.jpg"
+    },
+    {
+        "ProductId": "d988086c-c39b-11eb-94ea-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 80,
+        "Name": "郑秀妍 英文原版 Shine 平装",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/43.jpg"
+    },
+    {
+        "ProductId": "d988086d-c39b-11eb-b66f-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 88,
+        "Name": "朱正廷首张实体唱片《Chapter Z》",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/44.jpg"
+    },
+    {
+        "ProductId": "d988086e-c39b-11eb-a91c-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 540,
+        "Name": "【中唱正版】凤鸣东方·中国歌剧百年经典 1920-2020 16CD",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/45.jpg"
+    },
+    {
+        "ProductId": "d988086f-c39b-11eb-86a8-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 118,
+        "Name": "MAGICBUS设计师YangYang朋克运动会系列T恤跳山羊款",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/46.jpg"
+    },
+    {
+        "ProductId": "d9882f76-c39b-11eb-b225-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 83.1,
+        "Name": "大张伟《20是件更美好的事》专辑",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/47.jpg"
+    },
+    {
+        "ProductId": "d9882f77-c39b-11eb-8c1f-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 85,
+        "Name": "大张伟《人间精品》专辑",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/48.jpg"
+    },
+    {
+        "ProductId": "d9882f78-c39b-11eb-afaa-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 58,
+        "Name": "徐良《我》专辑",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/49.jpg"
+    },
+    {
+        "ProductId": "d9882f79-c39b-11eb-8617-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 65,
+        "Name": "薛之谦《绅士》2015实体专辑",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/50.jpg"
+    },
+    {
+        "ProductId": "d9882f7a-c39b-11eb-892c-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 49,
+        "Name": "囧囧鸭仿生升级版灭蚊灯（2款可选）",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/51.jpg"
+    },
+    {
+        "ProductId": "d988566c-c39b-11eb-bc07-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 119,
+        "Name": "幸运石 名侦探柯南正版授权 二次元周边灰原哀925银吊坠",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/52.jpg"
+    },
+    {
+        "ProductId": "d988566d-c39b-11eb-8daa-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 69,
+        "Name": "幸运石 干物妹小埋正版授权 二次元动漫周边 土间埋双肩书包",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/53.jpg"
+    },
+    {
+        "ProductId": "d988566e-c39b-11eb-83e5-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 49,
+        "Name": "WE BARE BEARS 咱们裸熊 满天星黑胶遮阳伞",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/54.jpg"
+    },
+    {
+        "ProductId": "d988566f-c39b-11eb-a517-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 88,
+        "Name": "Hickey喜祺《蔷薇骑士》首张实体专辑",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/55.jpg"
+    },
+    {
+        "ProductId": "d9885670-c39b-11eb-b5bc-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 248,
+        "Name": "【预售】马常胜《宋词吟游》（LP黑胶大碟）",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/56.jpg"
+    },
+    {
+        "ProductId": "d9887da4-c39b-11eb-b1cb-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 248,
+        "Name": "【预售】庞岩《穿行》（LP黑胶大碟）",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/57.jpg"
+    },
+    {
+        "ProductId": "d9887da5-c39b-11eb-a366-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 35,
+        "Name": "盗墓笔记.秦岭神树（印签版）",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/58.jpg"
+    },
+    {
+        "ProductId": "d9887da6-c39b-11eb-ac5b-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 178,
+        "Name": "你所不知道的太宰治（礼盒装）",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/59.jpg"
+    },
+    {
+        "ProductId": "d9887da7-c39b-11eb-aa21-4cedfb0aecb7",
+        "CategoryId": 2,
+        "Price": 79,
+        "Name": "【正版授权】航海王暗影T恤",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/60.jpg"
+    },
+    {
+        "ProductId": "c47776a4-c39b-11eb-8d44-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 99,
+        "Name": "飞利浦SHM1000 电脑麦克风",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/61.jpg"
+    },
+    {
+        "ProductId": "c47776a5-c39b-11eb-950c-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 199,
+        "Name": "影巨人VV2 骑行跑步 降噪数显 真无线  挂耳式  超低延迟 蓝牙5.0耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/62.jpg"
+    },
+    {
+        "ProductId": "c4779be4-c39b-11eb-aed0-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 219,
+        "Name": "影巨人M10 ANC主动降噪+通透双模式 LED电量显示 真无线蓝牙耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/63.jpg"
+    },
+    {
+        "ProductId": "c4779be5-c39b-11eb-9da3-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 288.8,
+        "Name": "毕亚兹 无线蓝牙耳机 蓝牙5.0带充电舱苹果安卓通用D35",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/64.jpg"
+    },
+    {
+        "ProductId": "c4779be6-c39b-11eb-961b-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 288.8,
+        "Name": "影巨人 H21真无线蓝牙耳机高通3020进口芯片",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/65.jpg"
+    },
+    {
+        "ProductId": "c477c2e4-c39b-11eb-a817-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 288.8,
+        "Name": "H10真无线蓝牙耳机蓝牙5.0安卓苹果通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/66.jpg"
+    },
+    {
+        "ProductId": "c477c2e5-c39b-11eb-a30a-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 288.8,
+        "Name": "漫步者（EDIFIER）R206BT蓝牙款 2.1声道木质家用多媒体电脑桌面音箱",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/67.jpg"
+    },
+    {
+        "ProductId": "c477c2e6-c39b-11eb-b14e-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 2788,
+        "Name": "Beats Studio3 Wireless 录音师无线3代 蓝牙无线 头戴式降噪耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/68.jpg"
+    },
+    {
+        "ProductId": "c477c2e7-c39b-11eb-8221-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 1399,
+        "Name": "铁三角 E50 入耳式一单元动铁可换线专业监听手机音乐耳塞有线耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/69.jpg"
+    },
+    {
+        "ProductId": "c477e9f6-c39b-11eb-83d4-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 239,
+        "Name": "月神Z3 双芯6D音效50小时双耳续航真无线防水蓝牙耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/70.jpg"
+    },
+    {
+        "ProductId": "c477e9f7-c39b-11eb-b509-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 169,
+        "Name": "Disney迪士尼公主系列无线蓝牙耳机 入耳式运动跑步音乐通话",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/71.jpg"
+    },
+    {
+        "ProductId": "c477e9f8-c39b-11eb-909c-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 169,
+        "Name": "漫步者（EDIFIER）W280BT 无线蓝牙入耳式运动耳机磁吸耳塞",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/72.jpg"
+    },
+    {
+        "ProductId": "c477e9f9-c39b-11eb-84a3-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 888,
+        "Name": "EROS HIFI播放器K aigo爱国者出品 HIFI无损音乐播放器 MP3便携播放器",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/73.jpg"
+    },
+    {
+        "ProductId": "c4781106-c39b-11eb-963c-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 888,
+        "Name": "EROS HIFI播放器Q aigo爱国者出品 HIFI无损音乐播放器 MP3便携播放器",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/74.jpg"
+    },
+    {
+        "ProductId": "c4781107-c39b-11eb-991c-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 239,
+        "Name": "影巨人BE62 重低音运动蓝牙5.0耳机 智能触控 双耳通话降噪 手机通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/75.jpg"
+    },
+    {
+        "ProductId": "c4781108-c39b-11eb-acbb-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 169,
+        "Name": "影巨人i11 Pro 智能三数显 双耳高清麦克风 真无线运动蓝牙耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/76.jpg"
+    },
+    {
+        "ProductId": "c4781109-c39b-11eb-8b50-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 88,
+        "Name": "迪士尼/Disney 正版授权无线蓝牙5.0卡通迷你运动户外智能小音箱",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/77.jpg"
+    },
+    {
+        "ProductId": "c478110a-c39b-11eb-a257-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 109,
+        "Name": "毕亚兹 小风扇迷你加湿器  宿舍办公 USB充电静音喷雾风扇T9",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/78.jpg"
+    },
+    {
+        "ProductId": "c478381a-c39b-11eb-96e2-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 2459,
+        "Name": "铁三角 E70 入耳式三单元动铁可换线专业监听手机音乐耳塞有线耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/79.jpg"
+    },
+    {
+        "ProductId": "c478381b-c39b-11eb-a6b4-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 298.8,
+        "Name": "i19蓝牙5.0真无线耳机 光感入耳 记忆配对 无线充电 苹果安卓通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/80.jpg"
+    },
+    {
+        "ProductId": "c478381c-c39b-11eb-a105-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 399,
+        "Name": "漫步者（EDIFIER）Fit Pods 主动降噪真无线蓝牙5.0手机通话音乐游戏运动耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/81.jpg"
+    },
+    {
+        "ProductId": "c478381d-c39b-11eb-bba7-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 199,
+        "Name": "UiiSii TWS81 半入耳式真无线蓝牙耳机 记忆配对 智能触控 迷你小巧耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/82.jpg"
+    },
+    {
+        "ProductId": "c478381e-c39b-11eb-b28c-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 159,
+        "Name": "影巨人LB-21 双主机LED屏显 真无线 运动跑步 蓝牙耳机   迷你小巧 安卓苹果通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/83.jpg"
+    },
+    {
+        "ProductId": "c4785f2c-c39b-11eb-a011-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 129,
+        "Name": "影巨人E68 无线音乐 游戏电竞重低音蓝牙耳机5.0 超低延迟 长久续航 数显佩戴舒适",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/84.jpg"
+    },
+    {
+        "ProductId": "c4785f2d-c39b-11eb-811c-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 199,
+        "Name": "影巨人i33 主动降噪+通话降噪 音乐 通透 游戏三模式 蓝牙5.1耳机  安卓苹果通用",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/85.jpg"
+    },
+    {
+        "ProductId": "c478ad54-c39b-11eb-bf83-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 139,
+        "Name": "Tuddrom小魔鸭 T100 运动降噪 迷你隐形 双耳入耳式男女通用耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/86.jpg"
+    },
+    {
+        "ProductId": "c478ad55-c39b-11eb-9563-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 159,
+        "Name": "Disney迪士尼正版联名款 米奇系列无线蓝牙小音箱 卡通可爱随身低音炮",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/87.jpg"
+    },
+    {
+        "ProductId": "c478ad56-c39b-11eb-8d72-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 39,
+        "Name": "Disney迪士尼苹果安卓Type-C快充数据线 可爱卡通 耐摇摆耐拔插充电线",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/88.jpg"
+    },
+    {
+        "ProductId": "c478ad57-c39b-11eb-ba7a-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 149,
+        "Name": "Tuddrom小魔鸭 T200 双主耳入耳式 智能触控 重低音无线蓝牙耳机",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/89.jpg"
+    },
+    {
+        "ProductId": "c478ad58-c39b-11eb-8a32-4cedfb0aecb7",
+        "CategoryId": 3,
+        "Price": 99,
+        "Name": "影巨人G1 U盘录音笔高清降噪大容量超长待机MP3数码播放器",
+        "PicUrl": "https://flash-1302948545.cos.ap-shanghai.myqcloud.com/flashmusic/pics/90.jpg"
+    }
+]

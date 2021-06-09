@@ -16,3 +16,7 @@ F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\NeteaseCloudMusicApi\obj\De
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.dll
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.xml
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\NeteaseCloudMusicApi\obj\Debug\netstandard2.0\NeteaseCloudMusicApi.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.deps.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\bin\Debug\netstandard2.0\NeteaseCloudMusicApi.xml
