@@ -1,0 +1,5 @@
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\bin\Release\netcoreapp3.1\publish\MailService.exe
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\bin\Release\netcoreapp3.1\publish\MailService.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\bin\Release\netcoreapp3.1\publish\MailService.deps.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\bin\Release\netcoreapp3.1\publish\MailService.runtimeconfig.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\bin\Release\netcoreapp3.1\publish\MailService.pdb

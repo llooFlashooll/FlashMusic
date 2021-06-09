@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
@@ -74,7 +75,14 @@ namespace FlashMusic
                 options.UseMySQL(Configuration["DbContext:ConnectionString"]);
             });
 
+            // 添加redis
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            // 添加swagger
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "FlashMusic API", Version = "v1" });
+            });
 
             // 注意AddTransient、AddSingleton、AddScoped的区别，注册服务
             services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
@@ -93,8 +101,15 @@ namespace FlashMusic
             }
 
             app.UseStaticFiles();
-            
+
             // app.UseHttpsRedirection();
+            // 添加Swagger有关中间件
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "FlashMusic API v1");
+            });
+
 
             // 你在哪
             app.UseRouting();

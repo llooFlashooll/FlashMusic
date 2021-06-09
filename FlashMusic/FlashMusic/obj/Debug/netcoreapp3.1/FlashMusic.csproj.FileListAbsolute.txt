@@ -140,3 +140,9 @@ F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcor
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\obj\Debug\netcoreapp3.1\FlashMusic.MvcApplicationPartsAssemblyInfo.cs
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll

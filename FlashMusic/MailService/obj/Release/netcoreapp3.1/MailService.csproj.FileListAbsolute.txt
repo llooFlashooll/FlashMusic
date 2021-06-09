@@ -1,0 +1,13 @@
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\bin\Release\netcoreapp3.1\MailService.exe
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\bin\Release\netcoreapp3.1\MailService.deps.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\bin\Release\netcoreapp3.1\MailService.runtimeconfig.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\bin\Release\netcoreapp3.1\MailService.runtimeconfig.dev.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\bin\Release\netcoreapp3.1\MailService.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\bin\Release\netcoreapp3.1\MailService.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\obj\Release\netcoreapp3.1\MailService.csprojAssemblyReference.cache
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\obj\Release\netcoreapp3.1\MailService.AssemblyInfoInputs.cache
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\obj\Release\netcoreapp3.1\MailService.AssemblyInfo.cs
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\obj\Release\netcoreapp3.1\MailService.csproj.CoreCompileInputs.cache
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\obj\Release\netcoreapp3.1\MailService.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\obj\Release\netcoreapp3.1\MailService.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\MailService\obj\Release\netcoreapp3.1\MailService.genruntimeconfig.cache

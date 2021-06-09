@@ -1,0 +1,4 @@
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\NeteaseCloudMusicApi\obj\Release\netstandard2.0\NeteaseCloudMusicApi.csprojAssemblyReference.cache
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\NeteaseCloudMusicApi\obj\Release\netstandard2.0\NeteaseCloudMusicApi.AssemblyInfoInputs.cache
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\NeteaseCloudMusicApi\obj\Release\netstandard2.0\NeteaseCloudMusicApi.AssemblyInfo.cs
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\NeteaseCloudMusicApi\obj\Release\netstandard2.0\NeteaseCloudMusicApi.csproj.CoreCompileInputs.cache

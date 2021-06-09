@@ -1,0 +1,7 @@
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Release\netcoreapp3.1\publish\JWTAuthentication.exe
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Release\netcoreapp3.1\publish\JWTAuthentication.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Release\netcoreapp3.1\publish\JWTAuthentication.deps.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Release\netcoreapp3.1\publish\JWTAuthentication.runtimeconfig.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Release\netcoreapp3.1\publish\JWTAuthentication.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Release\netcoreapp3.1\publish\JWT.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\JWTAuthentication\bin\Release\netcoreapp3.1\publish\Newtonsoft.Json.dll

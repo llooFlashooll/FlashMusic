@@ -25,6 +25,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />
     <PackageReference Include="Modernizr" Version="2.8.3" />
     <PackageReference Include="MySql.Data" Version="8.0.25" />
     <PackageReference Include="MySql.Data.EntityFramework" Version="8.0.25" />
@@ -33,6 +34,7 @@
     <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
     <PackageReference Include="StackExchange.Redis" Version="2.2.4" />
     <PackageReference Include="stateless" Version="5.11.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
     <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.9" />
   </ItemGroup>
 

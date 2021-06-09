@@ -1,0 +1,8 @@
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\bin\Release\netcoreapp3.1\publish\RabbitMQProducer.exe
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\bin\Release\netcoreapp3.1\publish\RabbitMQProducer.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\bin\Release\netcoreapp3.1\publish\RabbitMQProducer.deps.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\bin\Release\netcoreapp3.1\publish\RabbitMQProducer.runtimeconfig.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\bin\Release\netcoreapp3.1\publish\RabbitMQProducer.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\bin\Release\netcoreapp3.1\publish\Newtonsoft.Json.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\bin\Release\netcoreapp3.1\publish\RabbitMQ.Client.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\RabbitMQProducer\bin\Release\netcoreapp3.1\publish\System.Threading.Channels.dll

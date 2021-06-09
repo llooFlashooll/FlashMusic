@@ -1,0 +1,6 @@
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Release\netcoreapp3.1\publish\TencentCos.exe
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Release\netcoreapp3.1\publish\TencentCos.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Release\netcoreapp3.1\publish\TencentCos.deps.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Release\netcoreapp3.1\publish\TencentCos.runtimeconfig.json
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Release\netcoreapp3.1\publish\TencentCos.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\TencentCos\bin\Release\netcoreapp3.1\publish\COSXML.dll
