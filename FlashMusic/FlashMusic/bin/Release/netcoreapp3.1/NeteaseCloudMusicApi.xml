@@ -858,6 +858,26 @@
             获取视频播放地址
             </summary>
         </member>
+        <member name="F:NeteaseCloudMusicApi.CloudMusicApiProviders.VideoCategoryList">
+            <summary>
+            获取视频分类列表
+            </summary>
+        </member>
+        <member name="F:NeteaseCloudMusicApi.CloudMusicApiProviders.VideoTimelineAll">
+            <summary>
+            获取全部视频列表
+            </summary>
+        </member>
+        <member name="F:NeteaseCloudMusicApi.CloudMusicApiProviders.VideoDetailInfo">
+            <summary>
+            获取视频点赞转发评论数数据
+            </summary>
+        </member>
+        <member name="F:NeteaseCloudMusicApi.CloudMusicApiProviders.MvDetailInfo">
+            <summary>
+            获取 mv 点赞转发评论数数据
+            </summary>
+        </member>
         <member name="F:NeteaseCloudMusicApi.CloudMusicApiProviders.Weblog">
             <summary>
             操作记录 （无文档）

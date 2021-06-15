@@ -82,10 +82,10 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 获取专辑内容
 		/// </summary>
-		[HttpPost("album")]
-		public async Task<IActionResult> Album([FromBody] AlbumDto albumDto)
+		[HttpGet("album")]
+		public async Task<IActionResult> Album([FromQuery] string id)
         {
-			var json = await api.RequestAsync(CloudMusicApiProviders.Album, new Dictionary<string, object> { ["id"] = albumDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.Album, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
         }
 
@@ -135,37 +135,37 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 获取歌手单曲
 		/// </summary>
-		[HttpPost("artists")]
-		public async Task<IActionResult> Artists([FromBody] ArtistsDto artistsDto)
+		[HttpGet("artists")]
+		public async Task<IActionResult> Artists([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.Artists, new Dictionary<string, object> { ["id"] = artistsDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.Artists, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 获取歌手专辑
 		/// </summary>
-		[HttpPost("artist/album")]
-		public async Task<IActionResult> ArtistAlbum([FromBody] ArtistAlbumDto artistAlbumDto)
+		[HttpGet("artist/album")]
+		public async Task<IActionResult> ArtistAlbum([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.ArtistAlbum, new Dictionary<string, object> { ["id"] = artistAlbumDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.ArtistAlbum, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 获取歌手描述
 		/// </summary>
-		[HttpPost("artist/desc")]
-		public async Task<IActionResult> ArtistsDesc([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("artist/desc")]
+		public async Task<IActionResult> ArtistsDesc([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.ArtistDesc, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.ArtistDesc, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 歌手分类列表
 		/// </summary>
-		[HttpPost("artist/list")]
+		[HttpGet("artist/list")]
 		public async Task<IActionResult> ArtistList()
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.ArtistList);
@@ -175,10 +175,10 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 获取歌手mv
 		/// </summary>
-		[HttpPost("artist/mv")]
-		public async Task<IActionResult> ArtistMv([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("artist/mv")]
+		public async Task<IActionResult> ArtistMv([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.ArtistMv, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.ArtistMv, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
@@ -219,7 +219,7 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 轮播图
 		/// </summary>
-		[HttpPost("banner")]
+		[HttpGet("banner")]
 		public async Task<IActionResult> Banner()
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.Banner);
@@ -282,15 +282,19 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 发送/删除评论
 		/// </summary>
-		[HttpPost("comment")]
-		public async Task<IActionResult> Comment([FromBody] CommentDto commentDto)
+		[HttpGet("comment")]
+		public async Task<IActionResult> Comment([FromQuery] string t,
+												[FromQuery] string type,
+												[FromQuery] string id,
+												[FromQuery] string content,
+												[FromQuery] string commentId)
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.Comment, new Dictionary<string, object> { 
-				["t"] = commentDto.t,
-				["type"] = commentDto.type,
-				["id"] = commentDto.id,
-				["content"] = commentDto.content,
-				["commentId"] = commentDto.commentId
+				["t"] = t,
+				["type"] = type,
+				["id"] = id,
+				["content"] = content,
+				["commentId"] = commentId
 			});
 			return Ok(json);
 		}
@@ -298,10 +302,10 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 专辑评论
 		/// </summary>
-		[HttpPost("comment/album")]
-		public async Task<IActionResult> CommentAlbum([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("comment/album")]
+		public async Task<IActionResult> CommentAlbum([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.CommentAlbum, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.CommentAlbum, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
@@ -351,16 +355,20 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 给评论点赞
 		/// </summary>
-		[HttpPost("comment/like")]
-		public async Task<IActionResult> CommentLike([FromBody] CommentLikeDto commentLikeDto)
+		[HttpGet("comment/like")]
+		public async Task<IActionResult> CommentLike([FromQuery] string id,
+													[FromQuery] string cid,
+													[FromQuery] string t,
+													[FromQuery] string type,
+													[FromQuery] string threadId)
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.CommentLike, new Dictionary<string, object>
 			{
-				["id"] = commentLikeDto.id,
-				["cid"] = commentLikeDto.cid,
-				["t"] = commentLikeDto.t,
-				["type"] = commentLikeDto.type,
-				["threadId"] = commentLikeDto.threadId
+				["id"] = id,
+				["cid"] = cid,
+				["t"] = t,
+				["type"] = type,
+				["threadId"] = threadId
 			});
 			return Ok(json);
 		}
@@ -378,30 +386,30 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// mv评论
 		/// </summary>
-		[HttpPost("comment/mv")]
-		public async Task<IActionResult> CommentMv([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("comment/mv")]
+		public async Task<IActionResult> CommentMv([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.CommentMv, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.CommentMv, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 歌单评论
 		/// </summary>
-		[HttpPost("comment/playlist")]
-		public async Task<IActionResult> CommentPlaylist([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("comment/playlist")]
+		public async Task<IActionResult> CommentPlaylist([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.CommentPlaylist, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.CommentPlaylist, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 视频评论
 		/// </summary>
-		[HttpPost("comment/video")]
-		public async Task<IActionResult> CommentVideo([FromBody] CommentVideoDto commentVideoDto)
+		[HttpGet("comment/video")]
+		public async Task<IActionResult> CommentVideo([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.CommentVideo, new Dictionary<string, object> { ["id"] = commentVideoDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.CommentVideo, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
@@ -755,10 +763,10 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 歌词
 		/// </summary>
-		[HttpPost("lyric")]
-		public async Task<IActionResult> Lyric([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("lyric")]
+		public async Task<IActionResult> Lyric([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.Lyric, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.Lyric, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
@@ -820,7 +828,7 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 全部 mv
 		/// </summary>
-		[HttpPost("mv/all")]
+		[HttpGet("mv/all")]
 		public async Task<IActionResult> MvAll()
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.MvAll);
@@ -830,10 +838,10 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 获取 mv 数据
 		/// </summary>
-		[HttpPost("mv/detail")]
-		public async Task<IActionResult> MvDetail([FromBody] MvDetailDto mvDetailDto)
+		[HttpGet("mv/detail")]
+		public async Task<IActionResult> MvDetail([FromQuery] string mvid)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.MvDetail, new Dictionary<string, object> { ["mvid"] = mvDetailDto.mvid });
+			var json = await api.RequestAsync(CloudMusicApiProviders.MvDetail, new Dictionary<string, object> { ["mvid"] = mvid });
 			return Ok(json);
 		}
 
@@ -883,17 +891,17 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// mv 地址
 		/// </summary>
-		[HttpPost("mv/url")]
-		public async Task<IActionResult> MvUrl([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("mv/url")]
+		public async Task<IActionResult> MvUrl([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.MvUrl, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.MvUrl, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 推荐歌单
 		/// </summary>
-		[HttpPost("personalized")]
+		[HttpGet("personalized")]
 		public async Task<IActionResult> Personalized()
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.Personalized);
@@ -923,7 +931,7 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 推荐新音乐
 		/// </summary>
-		[HttpPost("personalized/newsong")]
+		[HttpGet("personalized/newsong")]
 		public async Task<IActionResult> PersonalizedNewsong()
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.PersonalizedNewsong);
@@ -954,7 +962,7 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 歌单分类
 		/// </summary>
-		[HttpPost("playlist/catlist")]
+		[HttpGet("playlist/catlist")]
 		public async Task<IActionResult> PlaylistCatlist()
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.PlaylistCatlist);
@@ -997,17 +1005,17 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 获取歌单详情
 		/// </summary>
-		[HttpPost("playlist/detail")]
-		public async Task<IActionResult> PlaylistDetail([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("playlist/detail")]
+		public async Task<IActionResult> PlaylistDetail([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.PlaylistDetail, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.PlaylistDetail, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 热门歌单分类
 		/// </summary>
-		[HttpPost("playlist/hot")]
+		[HttpGet("playlist/hot")]
 		public async Task<IActionResult> PlaylistHot()
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.PlaylistHot);
@@ -1031,13 +1039,13 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 收藏/取消收藏歌单
 		/// </summary>
-		[HttpPost("playlist/subscribe")]
-		public async Task<IActionResult> PlaylistSubscribe([FromBody] PlaylistSubscribeDto playlistSubscribeDto)
+		[HttpGet("playlist/subscribe")]
+		public async Task<IActionResult> PlaylistSubscribe([FromQuery] string t, [FromQuery] string id)
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.PlaylistSubscribe, new Dictionary<string, object>
 			{ 
-				["t"] = playlistSubscribeDto.t,
-				["id"] = playlistSubscribeDto.id
+				["t"] = t,
+				["id"] = id
 			});
 			return Ok(json);
 		}
@@ -1045,10 +1053,10 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 歌单收藏者
 		/// </summary>
-		[HttpPost("playlist/subscribers")]
-		public async Task<IActionResult> PlaylistSubscribers([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("playlist/subscribers")]
+		public async Task<IActionResult> PlaylistSubscribers([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.PlaylistSubscribers, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.PlaylistSubscribers, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
@@ -1160,32 +1168,34 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 相关视频
 		/// </summary>
-		[HttpPost("related/allvideo")]
-		public async Task<IActionResult> RelatedAllvideo([FromBody] RelatedAllvideoDto relatedAllvideoDto)
+		[HttpGet("related/allvideo")]
+		public async Task<IActionResult> RelatedAllvideo([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.RelatedAllvideo, new Dictionary<string, object> { ["id"] = relatedAllvideoDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.RelatedAllvideo, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 		/// <summary>
 		/// 相关歌单推荐
 		/// </summary>
-		[HttpPost("related/playlist")]
-		public async Task<IActionResult> RelatedPlaylist([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("related/playlist")]
+		public async Task<IActionResult> RelatedPlaylist([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.RelatedPlaylist, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.RelatedPlaylist, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 资源点赞( MV,电台,视频)
 		/// </summary>
-		[HttpPost("resource/like")]
-		public async Task<IActionResult> ResourceLike([FromBody] ResourceLikeDto resourceLikeDto)
+		[HttpGet("resource/like")]
+		public async Task<IActionResult> ResourceLike([FromQuery] string type,
+													[FromQuery] string t,
+													[FromQuery] string id)
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.ResourceLike, new Dictionary<string, object> { 
-				["type"] = resourceLikeDto.type,
-				["t"] = resourceLikeDto.t,
-				["id"] = resourceLikeDto.id
+				["type"] = type,
+				["t"] = t,
+				["id"] = id
 			});
 			return Ok(json);
 		}
@@ -1206,10 +1216,10 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 搜索
 		/// </summary>
-		[HttpPost("search")]
-		public async Task<IActionResult> Search([FromBody] SearchDto searchDto)
+		[HttpGet("search")]
+		public async Task<IActionResult> Search([FromQuery] string keywords)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.Search, new Dictionary<string, object> { ["keywords"] = searchDto.keywords });
+			var json = await api.RequestAsync(CloudMusicApiProviders.Search, new Dictionary<string, object> { ["keywords"] = keywords });
 			return Ok(json);
 		}
 
@@ -1226,7 +1236,7 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 热搜列表(简略)
 		/// </summary>
-		[HttpPost("search/hot")]
+		[HttpGet("search/hot")]
 		public async Task<IActionResult> SearchHot()
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.SearchHot);
@@ -1256,10 +1266,10 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 搜索建议，失败
 		/// </summary>
-		[HttpPost("search/suggest")]
-		public async Task<IActionResult> SearchSuggest([FromBody] SearchSuggestDto searchSuggestDto)
+		[HttpGet("search/suggest")]
+		public async Task<IActionResult> SearchSuggest([FromQuery] string keywords)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.SearchSuggest, new Dictionary<string, object> { ["keywords"] = searchSuggestDto.keywords });
+			var json = await api.RequestAsync(CloudMusicApiProviders.SearchSuggest, new Dictionary<string, object> { ["keywords"] = keywords });
 			return Ok(json);
 		}
 
@@ -1313,30 +1323,30 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 获取相似歌手
 		/// </summary>
-		[HttpPost("simi/artist")]
-		public async Task<IActionResult> SimiArtist([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("simi/artist")]
+		public async Task<IActionResult> SimiArtist([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.SimiArtist, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.SimiArtist, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 相似 mv
 		/// </summary>
-		[HttpPost("simi/mv")]
-		public async Task<IActionResult> SimiMv([FromBody] SimiMvDto simiMvDto)
+		[HttpGet("simi/mv")]
+		public async Task<IActionResult> SimiMv([FromQuery] string mvid)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.SimiMv, new Dictionary<string, object> { ["mvid"] = simiMvDto.mvid });
+			var json = await api.RequestAsync(CloudMusicApiProviders.SimiMv, new Dictionary<string, object> { ["mvid"] = mvid });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 获取相似歌单
 		/// </summary>
-		[HttpPost("simi/playlist")]
-		public async Task<IActionResult> SimiPlaylist([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("simi/playlist")]
+		public async Task<IActionResult> SimiPlaylist([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.SimiPlaylist, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.SimiPlaylist, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
@@ -1363,10 +1373,10 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 获取歌曲详情
 		/// </summary>
-		[HttpPost("song/detail")]
-		public async Task<IActionResult> SongDetail([FromBody] SongDetailDto songDetailDto)
+		[HttpGet("song/detail")]
+		public async Task<IActionResult> SongDetail([FromQuery] string ids)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.SongDetail, new Dictionary<string, object> { ["ids"] = songDetailDto.ids });
+			var json = await api.RequestAsync(CloudMusicApiProviders.SongDetail, new Dictionary<string, object> { ["ids"] = ids });
 			return Ok(json);
 		}
 
@@ -1403,7 +1413,7 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 所有榜单内容摘要
 		/// </summary>
-		[HttpPost("toplist/detail")]
+		[HttpGet("toplist/detail")]
 		public async Task<IActionResult> ToplistDetail()
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.ToplistDetail);
@@ -1423,7 +1433,7 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 热门歌手
 		/// </summary>
-		[HttpPost("top/artists")]
+		[HttpGet("top/artists")]
 		public async Task<IActionResult> TopArtists()
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.TopArtists);
@@ -1453,7 +1463,7 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 歌单 ( 网友精选碟 )
 		/// </summary>
-		[HttpPost("top/playlist")]
+		[HttpGet("top/playlist")]
 		public async Task<IActionResult> TopPlaylist()
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.TopPlaylist);
@@ -1526,10 +1536,10 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 获取用户详情
 		/// </summary>
-		[HttpPost("user/detail")]
-		public async Task<IActionResult> UserDetail()
+		[HttpGet("user/detail")]
+		public async Task<IActionResult> UserDetail([FromQuery] string uid)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.UserDetail, new Dictionary<string, object> { ["uid"] = uid });
+			var json = await api.RequestAsync(CloudMusicApiProviders.UserDetail, new Dictionary<string, object> { ["uid"] = NeteaseCloudMusicController.uid });
 			return Ok(json);
 		}
 
@@ -1577,21 +1587,21 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 获取用户歌单
 		/// </summary>
-		[HttpPost("user/playlist")]
-		public async Task<IActionResult> UserPlaylist()
+		[HttpGet("user/playlist")]
+		public async Task<IActionResult> UserPlaylist([FromQuery] string uid)
 		{
 			await LoginCellphone();
-			var json = await api.RequestAsync(CloudMusicApiProviders.UserPlaylist, new Dictionary<string, object> { ["uid"] = uid });
+			var json = await api.RequestAsync(CloudMusicApiProviders.UserPlaylist, new Dictionary<string, object> { ["uid"] = NeteaseCloudMusicController.uid });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 获取用户播放记录
 		/// </summary>
-		[HttpPost("user/record")]
-		public async Task<IActionResult> UserRecord()
+		[HttpGet("user/record")]
+		public async Task<IActionResult> UserRecord([FromQuery] string uid, [FromQuery] string type)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.UserRecord, new Dictionary<string, object> { ["uid"] = uid });
+			var json = await api.RequestAsync(CloudMusicApiProviders.UserRecord, new Dictionary<string, object> { ["uid"] = NeteaseCloudMusicController.uid, ["type"] = type });
 			return Ok(json);
 		}
 
@@ -1628,27 +1638,27 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 视频详情
 		/// </summary>
-		[HttpPost("video/detail")]
-		public async Task<IActionResult> VideoDetail([FromBody] VideoDetailDto videoDetailDto)
+		[HttpGet("video/detail")]
+		public async Task<IActionResult> VideoDetail([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.VideoDetail, new Dictionary<string, object> { ["id"] = videoDetailDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.VideoDetail, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 获取视频标签下的视频，失败
 		/// </summary>
-		[HttpPost("video/group")]
-		public async Task<IActionResult> VideoGroup([FromBody] NeteaseCloudDto neteaseCloudDto)
+		[HttpGet("video/group")]
+		public async Task<IActionResult> VideoGroup([FromQuery] string id)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.VideoGroup, new Dictionary<string, object> { ["id"] = neteaseCloudDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.VideoGroup, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
 		/// <summary>
 		/// 获取视频标签列表
 		/// </summary>
-		[HttpPost("video/group/list")]
+		[HttpGet("video/group/list")]
 		public async Task<IActionResult> VideoGroupList()
 		{
 			var json = await api.RequestAsync(CloudMusicApiProviders.VideoGroupList);
@@ -1671,13 +1681,52 @@ namespace FlashMusic.Controllers
 		/// <summary>
 		/// 获取视频播放地址，失败
 		/// </summary>
-		[HttpPost("video/url")]
-		public async Task<IActionResult> VideoUrl([FromBody] VideoUrlDto videoUrlDto)
+		[HttpGet("video/url")]
+		public async Task<IActionResult> VideoUrl([FromQuery] string id)
 		{
 			await LoginCellphone();
-			var json = await api.RequestAsync(CloudMusicApiProviders.VideoUrl, new Dictionary<string, object> { ["id"] = videoUrlDto.id });
+			var json = await api.RequestAsync(CloudMusicApiProviders.VideoUrl, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}
 
+		/// <summary>
+		/// 获取视频分类列表
+		/// </summary>
+		[HttpGet("video/category/list")]
+		public async Task<IActionResult> VideoCategoryList()
+		{
+			var json = await api.RequestAsync(CloudMusicApiProviders.VideoCategoryList);
+			return Ok(json);
+		}
+
+		/// <summary>
+		/// 获取全部视频列表
+		/// </summary>
+		[HttpGet("video/timeline/all")]
+		public async Task<IActionResult> VideoTimelineAll()
+        {
+			var json = await api.RequestAsync(CloudMusicApiProviders.VideoTimelineAll);
+			return Ok(json);
+        }
+
+		/// <summary>
+		/// 获取视频点赞转发评论数数据
+		/// </summary>
+		[HttpGet("video/detail/info")]
+		public async Task<IActionResult> VideoDetailInfo([FromQuery] string vid)
+		{
+			var json = await api.RequestAsync(CloudMusicApiProviders.VideoTimelineAll, new Dictionary<string, object> { ["vid"] = vid });
+			return Ok(json);
+		}
+
+		/// <summary>
+		/// 获取 mv 点赞转发评论数数据
+		/// </summary>
+		[HttpGet("mv/detail/info")]
+		public async Task<IActionResult> MvDetailInfo([FromQuery] string mvid)
+		{
+			var json = await api.RequestAsync(CloudMusicApiProviders.VideoTimelineAll, new Dictionary<string, object> { ["mvid"] = mvid });
+			return Ok(json);
+		}
 	}
 }

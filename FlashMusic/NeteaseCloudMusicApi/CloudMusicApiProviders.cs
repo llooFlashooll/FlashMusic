@@ -740,7 +740,7 @@ namespace NeteaseCloudMusicApi {
 		/// <summary>
 		/// 获取歌单详情
 		/// </summary>
-		public static readonly CloudMusicApiProvider PlaylistDetail = new CloudMusicApiProvider("/playlist/detail", HttpMethod.Post, "https://music.163.com/weapi/v3/playlist/detail", new ParameterInfo[] {
+		public static readonly CloudMusicApiProvider PlaylistDetail = new CloudMusicApiProvider("/playlist/detail", HttpMethod.Post, "https://music.163.com/weapi/v6/playlist/detail", new ParameterInfo[] {
 			new ParameterInfo("id"),
 			new ParameterInfo("n", ParameterType.Constant, 100000),
 			new ParameterInfo("s", ParameterType.Optional, 8)
@@ -929,7 +929,7 @@ namespace NeteaseCloudMusicApi {
 		/// <summary>
 		/// 搜索建议
 		/// </summary>
-		public static readonly CloudMusicApiProvider SearchSuggest = new CloudMusicApiProvider("/search/suggest", HttpMethod.Post, q => $"https://music.163.com/weapi/search/suggest/{(q.GetValueOrDefault("type", null).ToString() == "mobile" ? "keyword" : "web")}", new ParameterInfo[] {
+		public static readonly CloudMusicApiProvider SearchSuggest = new CloudMusicApiProvider("/search/suggest", HttpMethod.Post, q => $"https://music.163.com/weapi/search/suggest", new ParameterInfo[] {
 			new ParameterInfo("s") { KeyForwarding = "keywords" }
 		}, BuildOptions("weapi"));
 
@@ -1250,6 +1250,41 @@ namespace NeteaseCloudMusicApi {
 			new ParameterInfo("ids") { KeyForwarding = "id", Transformer = JsonArrayTransformer },
 			new ParameterInfo("resolution", ParameterType.Optional, 1080) { KeyForwarding = "res" }
 		}, BuildOptions("weapi"));
+
+		// zzy补充
+
+		/// <summary>
+		/// 获取视频分类列表
+		/// </summary>
+		public static readonly CloudMusicApiProvider VideoCategoryList = new CloudMusicApiProvider("/video/category/list", HttpMethod.Post, "https://music.163.com/api/cloudvideo/category/list", new ParameterInfo[] { 
+			new ParameterInfo("offset", ParameterType.Optional, 0),
+			new ParameterInfo("total", ParameterType.Constant, true),
+			new ParameterInfo("limit", ParameterType.Optional, 99)
+		}, BuildOptions("weapi"));
+
+		/// <summary>
+		/// 获取全部视频列表
+		/// </summary>
+		public static readonly CloudMusicApiProvider VideoTimelineAll = new CloudMusicApiProvider("/video/timeline/all", HttpMethod.Post, "https://music.163.com/api/videotimeline/otherclient/get", new ParameterInfo[] { 
+			new ParameterInfo("offset", ParameterType.Optional, 0)
+		}, BuildOptions("weapi"));
+
+
+		/// <summary>
+		/// 获取视频点赞转发评论数数据
+		/// </summary>
+		public static readonly CloudMusicApiProvider VideoDetailInfo = new CloudMusicApiProvider("/video/detail/info", HttpMethod.Post, "https://music.163.com/api/comment/commentthread/info", new ParameterInfo[] {
+			new ParameterInfo("vid")
+		}, BuildOptions("weapi"));
+
+
+		/// <summary>
+		/// 获取 mv 点赞转发评论数数据
+		/// </summary>
+		public static readonly CloudMusicApiProvider MvDetailInfo = new CloudMusicApiProvider("/mv/detail/info", HttpMethod.Post, "https://music.163.com/api/comment/commentthread/info", new ParameterInfo[] {
+			new ParameterInfo("mvid")
+		}, BuildOptions("weapi"));
+
 
 		/// <summary>
 		/// 操作记录 （无文档）
