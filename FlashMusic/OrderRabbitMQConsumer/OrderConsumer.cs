@@ -95,7 +95,7 @@ namespace OrderRabbitMQConsumer
         static async Task<int> GetCartNumAsync(string token)
         {
             int num = 0;
-            client.BaseAddress = new Uri("http://localhost:5000/");
+            client.BaseAddress = new Uri("http://47.103.56.113:5000/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));

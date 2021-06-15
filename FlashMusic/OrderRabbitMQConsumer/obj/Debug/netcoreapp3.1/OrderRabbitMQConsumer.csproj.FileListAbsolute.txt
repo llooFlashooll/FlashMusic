@@ -140,3 +140,8 @@ F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\OrderRabbitMQConsumer\bin\D
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\OrderRabbitMQConsumer\bin\Debug\netcoreapp3.1\NeteaseCloudMusicApi.pdb
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\OrderRabbitMQConsumer\bin\Debug\netcoreapp3.1\NeteaseCloudMusicApi.xml
 F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\OrderRabbitMQConsumer\bin\Debug\netcoreapp3.1\NeteaseCloudMusicApi.Demo.pdb
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\OrderRabbitMQConsumer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\OrderRabbitMQConsumer\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\OrderRabbitMQConsumer\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\OrderRabbitMQConsumer\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\OrderRabbitMQConsumer\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

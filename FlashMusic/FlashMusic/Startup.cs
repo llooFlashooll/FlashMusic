@@ -27,6 +27,8 @@ namespace FlashMusic
     public class Startup
     {
 
+        private readonly string AllowCors = "AllowCors";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -84,6 +86,18 @@ namespace FlashMusic
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FlashMusic API", Version = "v1" });
             });
 
+            // 允许跨域
+            services.AddCors(options =>
+            {
+                options.AddPolicy(AllowCors,
+                    builder =>
+                    {
+                        builder.AllowAnyMethod()
+                            .AllowAnyOrigin()
+                            .AllowAnyHeader();
+                    });
+            });
+
             // 注意AddTransient、AddSingleton、AddScoped的区别，注册服务
             services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
 
@@ -119,6 +133,8 @@ namespace FlashMusic
 
             // 你有什么权限
             app.UseAuthorization();
+
+            app.UseCors(AllowCors);
 
             app.UseEndpoints(endpoints =>
             {
