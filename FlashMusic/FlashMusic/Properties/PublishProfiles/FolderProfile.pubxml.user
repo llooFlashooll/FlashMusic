@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>F:\Asp.NetCore Project\FlashMusic-Backend\FlashMusic\FlashMusic\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
-    <History>True|2021-06-15T14:10:46.1685637Z;True|2021-06-15T18:27:14.4424449+08:00;True|2021-06-09T20:05:25.4316812+08:00;</History>
+    <History>True|2021-06-17T10:33:20.0851150Z;True|2021-06-17T18:33:12.7163987+08:00;True|2021-06-17T16:32:08.5056765+08:00;True|2021-06-17T15:34:30.8948248+08:00;True|2021-06-17T14:55:00.7249447+08:00;True|2021-06-17T14:31:38.2355084+08:00;True|2021-06-15T22:10:46.1685637+08:00;True|2021-06-15T18:27:14.4424449+08:00;True|2021-06-09T20:05:25.4316812+08:00;</History>
   </PropertyGroup>
 </Project>

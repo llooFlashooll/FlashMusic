@@ -163,12 +163,20 @@ namespace FlashMusic.Controllers
 		}
 
 		/// <summary>
-		/// 歌手分类列表
+		/// 歌手分类列表  修改
 		/// </summary>
 		[HttpGet("artist/list")]
-		public async Task<IActionResult> ArtistList()
+		public async Task<IActionResult> ArtistList([FromQuery] string offset,
+													[FromQuery] string initial,
+													[FromQuery] string area,
+													[FromQuery] string type)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.ArtistList);
+			var json = await api.RequestAsync(CloudMusicApiProviders.ArtistList, new Dictionary<string, object> { 
+				["offset"] = offset,
+				["initial"] = initial,
+				["area"] = area,
+				["type"] = type
+			});
 			return Ok(json);
 		}
 
@@ -829,9 +837,17 @@ namespace FlashMusic.Controllers
 		/// 全部 mv
 		/// </summary>
 		[HttpGet("mv/all")]
-		public async Task<IActionResult> MvAll()
+		public async Task<IActionResult> MvAll([FromQuery] string area,
+												[FromQuery] string type,
+												[FromQuery] string order,
+												[FromQuery] string offset)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.MvAll);
+			var json = await api.RequestAsync(CloudMusicApiProviders.MvAll, new Dictionary<string, object> { 
+				["area"] = area,
+				["type"] = type,
+				["order"] = order,
+				["offset"] = offset
+			});
 			return Ok(json);
 		}
 
@@ -1217,9 +1233,9 @@ namespace FlashMusic.Controllers
 		/// 搜索
 		/// </summary>
 		[HttpGet("search")]
-		public async Task<IActionResult> Search([FromQuery] string keywords)
+		public async Task<IActionResult> Search([FromQuery] string keywords, [FromQuery] string type)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.Search, new Dictionary<string, object> { ["keywords"] = keywords });
+			var json = await api.RequestAsync(CloudMusicApiProviders.Search, new Dictionary<string, object> { ["keywords"] = keywords, ["type"] = type });
 			return Ok(json);
 		}
 
@@ -1464,9 +1480,15 @@ namespace FlashMusic.Controllers
 		/// 歌单 ( 网友精选碟 )
 		/// </summary>
 		[HttpGet("top/playlist")]
-		public async Task<IActionResult> TopPlaylist()
+		public async Task<IActionResult> TopPlaylist([FromQuery] string order,
+													[FromQuery] string cat,
+													[FromQuery] string offset)
 		{
-			var json = await api.RequestAsync(CloudMusicApiProviders.TopPlaylist);
+			var json = await api.RequestAsync(CloudMusicApiProviders.TopPlaylist, new Dictionary<string, object> { 
+				["order"] = order,
+				["cat"] = cat,
+				["offset"] = offset
+			});
 			return Ok(json);
 		}
 
@@ -1684,7 +1706,6 @@ namespace FlashMusic.Controllers
 		[HttpGet("video/url")]
 		public async Task<IActionResult> VideoUrl([FromQuery] string id)
 		{
-			await LoginCellphone();
 			var json = await api.RequestAsync(CloudMusicApiProviders.VideoUrl, new Dictionary<string, object> { ["id"] = id });
 			return Ok(json);
 		}

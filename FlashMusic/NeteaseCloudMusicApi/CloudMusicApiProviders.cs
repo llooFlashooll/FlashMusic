@@ -78,11 +78,11 @@ namespace NeteaseCloudMusicApi {
 		/// 歌手分类列表
 		/// </summary>
 		public static readonly CloudMusicApiProvider ArtistList = new CloudMusicApiProvider("/artist/list", HttpMethod.Post, "https://music.163.com/weapi/artist/list", new ParameterInfo[] {
-			new ParameterInfo("categoryCode", ParameterType.Optional, 1001) { KeyForwarding = "cat" },
+			new ParameterInfo("offset"),
 			new ParameterInfo("initial", ParameterType.Optional) { Transformer = ArtistListInitialTransformer },
-			new ParameterInfo("offset", ParameterType.Optional, 0),
-			new ParameterInfo("limit", ParameterType.Optional, 30),
-			new ParameterInfo("total", ParameterType.Constant, true)
+			new ParameterInfo("area"),
+			new ParameterInfo("type"),
+			new ParameterInfo("limit", ParameterType.Optional, 30)
 		}, BuildOptions("weapi"));
 
 		/// <summary>
@@ -614,11 +614,14 @@ namespace NeteaseCloudMusicApi {
 		/// 全部 mv
 		/// </summary>
 		public static readonly CloudMusicApiProvider MvAll = new CloudMusicApiProvider("/mv/all", HttpMethod.Post, "https://interface.music.163.com/api/mv/all", new ParameterInfo[] {
-			new ParameterInfo("tags", ParameterType.Custom) { CustomHandler = q => JsonConvert.SerializeObject(new Dictionary<string, object> {
+/*			new ParameterInfo("tags", ParameterType.Custom) { CustomHandler = q => JsonConvert.SerializeObject(new Dictionary<string, object> {
 				["地区"] = q.GetValueOrDefault("area", "全部"),
 				["类型"] = q.GetValueOrDefault("type", "全部"),
 				["排序"] = q.GetValueOrDefault("order", "上升最快")
-			}) },
+			}) },*/
+			new ParameterInfo("area"),
+			new ParameterInfo("type"),
+			new ParameterInfo("order"),
 			new ParameterInfo("limit", ParameterType.Optional, 30),
 			new ParameterInfo("offset", ParameterType.Optional, 0),
 			new ParameterInfo("total", ParameterType.Constant, true)
@@ -1247,7 +1250,7 @@ namespace NeteaseCloudMusicApi {
 		/// 获取视频播放地址
 		/// </summary>
 		public static readonly CloudMusicApiProvider VideoUrl = new CloudMusicApiProvider("/video/url", HttpMethod.Post, "https://music.163.com/weapi/cloudvideo/playurl", new ParameterInfo[] {
-			new ParameterInfo("ids") { KeyForwarding = "id", Transformer = JsonArrayTransformer },
+			new ParameterInfo("ids") { KeyForwarding = "id", Transformer = VideoUrlIdTransformer },
 			new ParameterInfo("resolution", ParameterType.Optional, 1080) { KeyForwarding = "res" }
 		}, BuildOptions("weapi"));
 
@@ -1318,18 +1321,33 @@ namespace NeteaseCloudMusicApi {
 			return options;
 		}
 
+		private static object VideoUrlIdTransformer(object value) {
+			string ids = "[\"" + value + "\"]";
+            Console.WriteLine(ids);
+			return ids;
+        }
+
 		private static object JsonArrayTransformer(object value) {
+            Console.WriteLine($"[{FormatJsonIntegerArrayBody(value)}]");
 			return $"[{FormatJsonIntegerArrayBody(value)}]";
 		}
 
 		private static object ArtistListInitialTransformer(object value) {
-			if (value is null)
-				return null;
-			if (value is string s)
-				return (int)char.ToUpperInvariant(s[0]);
-			if (value is char c)
-				return (int)char.ToUpperInvariant(c);
-			return ToInteger(value);
+			if (value.Equals("-1"))
+			{
+				return value;
+			}
+            if (value is string s)
+            {
+/*                if (s[0].Equals("-"))
+                {
+                    return value;
+                }*/
+                return (int)char.ToUpperInvariant(s[0]);
+            }
+            if (value is char c)
+                return (int)char.ToUpperInvariant(c);
+            return ToInteger(value);
 		}
 
 		private static object BannerTypeTransformer(object type) {
